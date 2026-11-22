@@ -1,0 +1,33 @@
+name: Fetch data center locations (OpenStreetMap)
+
+# Downloads data center locations for the Northern Virginia map from the
+# OpenStreetMap Overpass API and commits them to map/osm_datacenters_nova.json.
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-datacenters.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query Overpass
+        run: |
+          Q='[out:json][timeout:120];(nwr["telecom"="data_center"](38.30,-78.30,39.45,-76.90);nwr["building"="data_center"](38.30,-78.30,39.45,-76.90););out center tags;'
+          for i in 1 2 3; do
+            curl -sSf -m 300 --data-urlencode "data=$Q" https://overpass-api.de/api/interpreter -o map/osm_datacenters_nova.json && break
+            sleep 30
+          done
+          python3 -c "import json;d=json.load(open('map/osm_datacenters_nova.json'));print(len(d['elements']),'elements')"
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add map/osm_datacenters_nova.json
+          git diff --cached --quiet || git commit -m "Update OSM data center snapshot"
+          git push

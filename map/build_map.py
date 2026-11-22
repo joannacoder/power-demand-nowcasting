@@ -51,7 +51,7 @@ HIFLD_LINES_URL = (
 HIFLD_LINES_FILE = RAW / "hifld_transmission_lines_nova.geojson"
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
-OSM_DC_FILE = RAW / "osm_datacenters_nova.json"
+OSM_DC_FILE = ROOT / "map" / "osm_datacenters_nova.json"  # fetched by GitHub Action
 
 FUEL_GROUPS = {
     "Natural Gas Fired Combined Cycle": "Gas (combined cycle)",
