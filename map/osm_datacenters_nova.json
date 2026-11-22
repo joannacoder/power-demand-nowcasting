@@ -1,0 +1,8051 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-22T02:20:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 751881301,
+  "lat": 38.9028879,
+  "lon": -77.0291491,
+  "tags": {
+    "addr:housenumber": "1275",
+    "addr:street": "K Street Northwest",
+    "clli": "WASHDC12",
+    "name": "CoreSite DC1",
+    "operator": "CoreSite",
+    "operator:wikidata": "Q5170140",
+    "source": "dcgis",
+    "telecom": "data_center",
+    "website": "https://www.coresite.com/data-center/dc1-washington-d-c"
+  }
+},
+{
+  "type": "node",
+  "id": 7985753364,
+  "lat": 38.9137236,
+  "lon": -77.2258825,
+  "tags": {
+    "addr:housenumber": "8100",
+    "addr:street": "Boone Boulevard",
+    "name": "8100 Boone Boulevard",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "operator:wikipedia": "en:Digital Realty",
+    "owner": "Digital Realty",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "node",
+  "id": 9669639033,
+  "lat": 38.9208538,
+  "lon": -77.2115713,
+  "tags": {
+    "addr:city": "McLean",
+    "addr:housenumber": "1755",
+    "addr:postcode": "22102",
+    "addr:state": "VA",
+    "addr:street": "Old Meadow Road",
+    "name": "Lumen McLean",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "node",
+  "id": 14156477686,
+  "lat": 39.0254580,
+  "lon": -77.4542815,
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44690",
+    "addr:postcode": "20147",
+    "addr:street": "Performance Circle",
+    "name": "Equinix Ashburn DC18",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC18",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 45583037,
+  "center": {
+    "lat": 38.8048453,
+    "lon": -77.5124065
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7777",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Infantry Ridge Road",
+    "building": "data_center",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 45583050,
+  "center": {
+    "lat": 38.8034341,
+    "lon": -77.5105821
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7400",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Infantry Ridge Road",
+    "building": "data_center",
+    "name": "Equinix DC14",
+    "ref": "DC14",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 45776978,
+  "center": {
+    "lat": 38.7904948,
+    "lon": -77.5411095
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7510",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Mason King Court",
+    "building": "data_center",
+    "name": "Amazon IAD-11",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD11",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 45776979,
+  "center": {
+    "lat": 38.7903463,
+    "lon": -77.5400098
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7610",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Mason King Court",
+    "building": "data_center",
+    "name": "Amazon IAD-24",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-24",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 45776988,
+  "center": {
+    "lat": 38.7911993,
+    "lon": -77.5382664
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7505",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Mason King Court",
+    "building": "data_center",
+    "name": "Amazon IAD-7",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "Digital Realty",
+    "ref": "Amazon IAD-7",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 46831933,
+  "center": {
+    "lat": 38.7779794,
+    "lon": -77.5949629
+  },
+  "tags": {
+    "addr:city": "Bristow",
+    "addr:country": "US",
+    "addr:housenumber": "8217",
+    "addr:postcode": "20136",
+    "addr:state": "VA",
+    "addr:street": "Linton Hall Road",
+    "building": "data_center",
+    "fixme": "might not be digital realty",
+    "input:electricity": "24 MW",
+    "it_power": "9.6 MW",
+    "name": "Digital Realty VA4",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "operator:wikipedia": "en:Digital Realty",
+    "ref": "VA4",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 48242814,
+  "center": {
+    "lat": 39.0216753,
+    "lon": -77.4329728
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45360",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "West Severn Way",
+    "building": "data_center",
+    "input:electricity": "31 MW",
+    "name": "Amazon IAD-10",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-10",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 48242816,
+  "center": {
+    "lat": 39.0215693,
+    "lon": -77.4347944
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "1304",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Squire Court",
+    "building": "data_center",
+    "input:electricity": "10 MW",
+    "name": "Amazon IAD-32",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-32",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 52094269,
+  "center": {
+    "lat": 39.0238679,
+    "lon": -77.4152091
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45845",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Nokes Boulevard",
+    "building": "data_center",
+    "input:electricity": "12 MW",
+    "name": "Centersquare IAD1-B",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD1-B",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#sterling-iad1"
+  }
+},
+{
+  "type": "way",
+  "id": 52094270,
+  "center": {
+    "lat": 39.0232978,
+    "lon": -77.4132123
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45901",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Nokes Boulevard",
+    "building": "data_center",
+    "input:electricity": "10 MW",
+    "name": "Centersquare IAD1-A",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD1-A",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#sterling-iad1"
+  }
+},
+{
+  "type": "way",
+  "id": 52094294,
+  "center": {
+    "lat": 39.0247540,
+    "lon": -77.4122043
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21110",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Ridgetop Circle",
+    "building": "data_center",
+    "input:electricity": "22 MW",
+    "name": "Centersquare IAD1-C",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD1-C",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#sterling-iad1"
+  }
+},
+{
+  "type": "way",
+  "id": 59294476,
+  "center": {
+    "lat": 39.0046933,
+    "lon": -77.4417399
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22080",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "37 MW",
+    "it_power": "17 MW",
+    "name": "STACK NVA01A",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "ref": "NVA01A",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva01/"
+  }
+},
+{
+  "type": "way",
+  "id": 79158387,
+  "center": {
+    "lat": 38.9484845,
+    "lon": -77.3272138
+  },
+  "tags": {
+    "addr:city": "Reston",
+    "addr:housenumber": "1780",
+    "addr:postcode": "20190",
+    "addr:state": "VA",
+    "addr:street": "Business Center Drive",
+    "building": "data_center",
+    "building:levels": "5",
+    "input:electricity": "36 MW",
+    "it_power": "13 MW",
+    "name": "Digital Realty VA3",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "VA3",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/va3"
+  }
+},
+{
+  "type": "way",
+  "id": 79159494,
+  "center": {
+    "lat": 38.9488037,
+    "lon": -77.3294224
+  },
+  "tags": {
+    "addr:city": "Reston",
+    "addr:housenumber": "1807",
+    "addr:postcode": "20190",
+    "addr:state": "VA",
+    "addr:street": "Michael Faraday Court",
+    "building": "data_center",
+    "input:electricity": "4 MW",
+    "name": "Evocative IAD1",
+    "operator": "Evocative",
+    "operator:wikidata": "Q136332656",
+    "ref": "IAD1",
+    "telecom": "data_center",
+    "website": "https://evocative.com/data-centers/reston-va-data-center-iad1/"
+  }
+},
+{
+  "type": "way",
+  "id": 79298926,
+  "center": {
+    "lat": 38.9506059,
+    "lon": -77.3645496
+  },
+  "tags": {
+    "VEDP:PropertyID": "241830",
+    "addr:city": "Reston",
+    "addr:country": "US",
+    "addr:housenumber": "12100",
+    "addr:postcode": "20191-3407",
+    "addr:state": "VA",
+    "addr:street": "Sunrise Valley Drive",
+    "building": "data_center",
+    "clli": "RSTNVA14",
+    "name": "CoreSite VA1",
+    "operator": "CoreSite",
+    "operator:wikidata": "Q5170140",
+    "ref": "VA1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 79818498,
+  "center": {
+    "lat": 38.9483343,
+    "lon": -77.3724298
+  },
+  "tags": {
+    "addr:city": "Reston",
+    "addr:housenumber": "12369",
+    "addr:postcode": "20191",
+    "addr:state": "VA",
+    "addr:street": "Sunrise Valley Drive",
+    "building": "data_center",
+    "name": "CoreSite VA3",
+    "operator": "CoreSite",
+    "operator:wikidata": "Q5170140",
+    "ref": "VA3",
+    "telecom": "data_center",
+    "website": "https://www.coresite.com/data-center/va3-reston-va"
+  }
+},
+{
+  "type": "way",
+  "id": 93210344,
+  "center": {
+    "lat": 39.0586081,
+    "lon": -76.9644670
+  },
+  "tags": {
+    "addr:city": "Silver Spring",
+    "addr:housenumber": "12401",
+    "addr:postcode": "20904",
+    "addr:state": "MD",
+    "addr:street": "Prosperity Drive",
+    "building": "yes",
+    "name": "Lincoln Rackhouse Maryland",
+    "operator": "Lincoln Rackhouse",
+    "telecom": "data_center",
+    "website": "https://rackhouse.com/portfolio/maryland-data-center/"
+  }
+},
+{
+  "type": "way",
+  "id": 156468497,
+  "center": {
+    "lat": 38.9137020,
+    "lon": -77.2258342
+  },
+  "tags": {
+    "addr:housenumber": "8100",
+    "addr:street": "Boone Boulevard",
+    "building": "data_center",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 178331621,
+  "center": {
+    "lat": 39.3777781,
+    "lon": -77.4115448
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 221897579,
+  "center": {
+    "lat": 38.9615728,
+    "lon": -77.3774178
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "460",
+    "addr:postcode": "20170",
+    "addr:state": "VA",
+    "addr:street": "Springpark Place",
+    "building": "data_center",
+    "fixme": "not found on website",
+    "name": "Equinix DC97",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC97",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 222672860,
+  "center": {
+    "lat": 38.8150210,
+    "lon": -77.6486800
+  },
+  "tags": {
+    "addr:city": "Haymarket",
+    "addr:housenumber": "15395",
+    "addr:postcode": "20169",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-55",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-55",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 224100721,
+  "center": {
+    "lat": 38.7473099,
+    "lon": -77.5318265
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9651",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "name": "COPT DC-6",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 225745958,
+  "center": {
+    "lat": 38.7474201,
+    "lon": -77.6744649
+  },
+  "tags": {
+    "addr:housenumber": "6872",
+    "addr:postcode": "20187",
+    "addr:street": "Watson Court",
+    "building": "commercial",
+    "name": "OVH US East Vint Hill",
+    "source": "Fauquier County GIS data",
+    "source:note": "http://www.fauquiernow.com/index.php/fauquier_news/article/fauquier-cloud-computing-giant-coming-to-vint-hill-2016",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 234722029,
+  "center": {
+    "lat": 39.0163894,
+    "lon": -77.4590691
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21715",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "clli": "ASBNVA",
+    "input:electricity": "12 MW",
+    "it_power": "6 MW",
+    "name": "Equinix DC2",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC2",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc2"
+  }
+},
+{
+  "type": "way",
+  "id": 234722720,
+  "center": {
+    "lat": 39.0136782,
+    "lon": -77.4517194
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21800",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "78 MW",
+    "it_power": "42 MW",
+    "name": "H5 Ashburn",
+    "operator": "H5 Data Centers",
+    "operator:wikidata": "Q136332488",
+    "ref": "Ashburn",
+    "telecom": "data_center",
+    "website": "https://h5datacenters.com/ashburn-data-center.html"
+  }
+},
+{
+  "type": "way",
+  "id": 239147373,
+  "center": {
+    "lat": 38.9200207,
+    "lon": -77.2116187
+  },
+  "tags": {
+    "addr:city": "McLean",
+    "addr:housenumber": "1757",
+    "addr:postcode": "22102",
+    "addr:state": "VA",
+    "addr:street": "Old Meadow Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "name": "Lumen McLean 1",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 239147724,
+  "center": {
+    "lat": 38.9199052,
+    "lon": -77.2135850
+  },
+  "tags": {
+    "addr:city": "McLean",
+    "addr:housenumber": "1764",
+    "addr:postcode": "22102",
+    "addr:state": "VA",
+    "addr:street": "Old Meadow Lane",
+    "addr:unit": "A",
+    "building": "data_center",
+    "building:levels": "2",
+    "name": "DataBank IAD2",
+    "operator": "DataBank",
+    "operator:wikidata": "Q117314439",
+    "ref": "IAD2",
+    "telecom": "data_center",
+    "website": "https://www.databank.com/data-centers/northern-virginia/mclean/"
+  }
+},
+{
+  "type": "way",
+  "id": 251716311,
+  "center": {
+    "lat": 38.9059013,
+    "lon": -77.4689724
+  },
+  "tags": {
+    "addr:housenumber": "4120",
+    "addr:postcode": "20151",
+    "addr:street": "Lafayette Center Drive",
+    "building": "data_center",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 251716328,
+  "center": {
+    "lat": 38.9101164,
+    "lon": -77.4725921
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4030",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Lafayette Center Drive",
+    "building": "data_center",
+    "name": "Digital Realty IAD30",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "operator:wikipedia": "en:Digital Realty",
+    "owner": "Digital Realty",
+    "ref": "IAD30",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258343744,
+  "center": {
+    "lat": 38.8997236,
+    "lon": -77.4534439
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4100",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Westfax Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-9",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-9",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258343748,
+  "center": {
+    "lat": 38.8979047,
+    "lon": -77.4551032
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4155",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Westfax Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-22",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-22",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258343749,
+  "center": {
+    "lat": 38.8978637,
+    "lon": -77.4540825
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4101",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Westfax Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-1",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258519934,
+  "center": {
+    "lat": 38.9092366,
+    "lon": -77.4722656
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4050",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Lafayette Center Drive",
+    "building": "data_center",
+    "name": "H5 IAD31",
+    "owner": "IBM",
+    "ref": "IAD31",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258519959,
+  "center": {
+    "lat": 38.9097961,
+    "lon": -77.4734544
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "4040",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Lafayette Center Drive",
+    "building": "data_center",
+    "name": "H5 IAD32",
+    "owner": "IBM",
+    "ref": "IAD32",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 258520532,
+  "center": {
+    "lat": 38.9081360,
+    "lon": -77.4752182
+  },
+  "tags": {
+    "addr:housenumber": "4227",
+    "addr:postcode": "20151",
+    "addr:street": "Lafayette Center Drive",
+    "building": "commercial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 260996040,
+  "center": {
+    "lat": 38.7508150,
+    "lon": -77.1962716
+  },
+  "tags": {
+    "building": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 262058094,
+  "center": {
+    "lat": 38.9272065,
+    "lon": -77.4239326
+  },
+  "tags": {
+    "addr:housenumber": "13775",
+    "addr:postcode": "20171",
+    "addr:street": "McLearen Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "67.2 MW",
+    "it_power": "48 MW",
+    "name": "Menlo Digital MD-VA1",
+    "telecom": "data_center",
+    "website": "https://menlo-digital.com/portfolio/md-va1-herndon/"
+  }
+},
+{
+  "type": "way",
+  "id": 273895868,
+  "center": {
+    "lat": 38.9809293,
+    "lon": -77.4443786
+  },
+  "tags": {
+    "addr:city": "Dulles",
+    "addr:housenumber": "22995",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Wilder Court",
+    "building": "data_center",
+    "input:electricity": "6 MW",
+    "it_power": "2.0 MW",
+    "name": "Centersquare IAD3",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD3",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#dulles-iad3"
+  }
+},
+{
+  "type": "way",
+  "id": 273896089,
+  "center": {
+    "lat": 38.9844198,
+    "lon": -77.4238096
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22810",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "6 MW",
+    "name": "Centersquare IAD2-A",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD2-A",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#sterling-iad2"
+  }
+},
+{
+  "type": "way",
+  "id": 273896096,
+  "center": {
+    "lat": 38.9848664,
+    "lon": -77.4256702
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22811",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "24 MW",
+    "it_power": "11 MW",
+    "name": "CyrusOne NVA4",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "CyrusOne NVA4",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-virginia-nva4"
+  }
+},
+{
+  "type": "way",
+  "id": 273896102,
+  "center": {
+    "lat": 38.9836138,
+    "lon": -77.4240848
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22860",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "15 MW",
+    "name": "Centersquare IAD2-B",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD2-B",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/northern-virginia#sterling-iad2"
+  }
+},
+{
+  "type": "way",
+  "id": 298126010,
+  "center": {
+    "lat": 39.0178592,
+    "lon": -77.4624708
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44480",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Hastings Drive",
+    "building": "data_center",
+    "input:electricity": "72 MW",
+    "it_power": "36 MW",
+    "name": "Digital Realty ACC4",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "ACC4",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/acc4"
+  }
+},
+{
+  "type": "way",
+  "id": 298127059,
+  "center": {
+    "lat": 39.0155577,
+    "lon": -77.4603281
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:country": "US",
+    "addr:housenumber": "21711",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "input:electricity": "3 MW",
+    "it_power": "2 MW",
+    "name": "Equinix DC1",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC1",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc1"
+  }
+},
+{
+  "type": "way",
+  "id": 298127361,
+  "center": {
+    "lat": 39.0159629,
+    "lon": -77.4612253
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21701",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "input:electricity": "12 MW",
+    "name": "Equinix DC5",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC5",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc5"
+  }
+},
+{
+  "type": "way",
+  "id": 298127420,
+  "center": {
+    "lat": 39.0148911,
+    "lon": -77.4587995
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21721",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "input:electricity": "22 MW",
+    "name": "Equinix DC11",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC11",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc11"
+  }
+},
+{
+  "type": "way",
+  "id": 298242260,
+  "center": {
+    "lat": 39.0223584,
+    "lon": -77.4610917
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44470",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Chilum Place",
+    "building": "data_center",
+    "input:electricity": "12MW",
+    "it_power": "5 MW",
+    "name": "Equinix DC3",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "owner": "Digital Realty",
+    "ref": "DC3",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc3"
+  }
+},
+{
+  "type": "way",
+  "id": 298242335,
+  "center": {
+    "lat": 39.0198800,
+    "lon": -77.4598033
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44520",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Hastings Drive",
+    "building": "data_center",
+    "input:electricity": "30 MW",
+    "it_power": "14 MW",
+    "name": "Digital Realty ACC3",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "ACC3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 299927846,
+  "center": {
+    "lat": 38.9937936,
+    "lon": -77.4505090
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22520",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Randolph Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-76",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-76",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 299929061,
+  "center": {
+    "lat": 38.9887240,
+    "lon": -77.4476710
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22630",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Dulles Summit Court",
+    "building": "data_center",
+    "input:electricity": "53 MW",
+    "name": "Amazon IAD-12",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD12",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 300162674,
+  "center": {
+    "lat": 39.0201584,
+    "lon": -77.4631033
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44521",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Hastings Drive",
+    "building": "data_center",
+    "input:electricity": "72 MW",
+    "it_power": "34 MW",
+    "name": "Digital Realty ACC5",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "ACC5",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/acc5"
+  }
+},
+{
+  "type": "way",
+  "id": 300162675,
+  "center": {
+    "lat": 39.0210261,
+    "lon": -77.4635509
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44461",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Chilum Place",
+    "building": "data_center",
+    "input:electricity": "54 MW",
+    "it_power": "26 MW",
+    "name": "Digital Realty ACC6",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "ACC6",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/acc6"
+  }
+},
+{
+  "type": "way",
+  "id": 300162689,
+  "center": {
+    "lat": 39.0221820,
+    "lon": -77.4576094
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44633",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Guilford Drive",
+    "building": "data_center",
+    "fixme": "Might not exist anymore",
+    "name": "Lumen Ashburn",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 300163074,
+  "center": {
+    "lat": 39.0221679,
+    "lon": -77.4535946
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21571",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "12 MW",
+    "name": "Centersquare IAD4-B",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD4",
+    "telecom": "data_center",
+    "website": "https://centersquaredc.com/data-centers/northern-virginia#ashburn-iad4"
+  }
+},
+{
+  "type": "way",
+  "id": 300163083,
+  "center": {
+    "lat": 39.0227436,
+    "lon": -77.4548911
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44664",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Guilford Drive",
+    "building": "data_center",
+    "clli": "CLPPVA01",
+    "input:electricity": "26 MW",
+    "it_power": "12.6 MW",
+    "name": "NTT VA1",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA1",
+    "telecom": "data_center",
+    "website": "https://www.nttdata.com/en-us/services/global-data-centers/global-locations/americas/northern-virginia-data-centers/ashburn-va-1-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 300969250,
+  "center": {
+    "lat": 39.0125685,
+    "lon": -77.4753993
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21830",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Uunet Way",
+    "building": "data_center",
+    "input:electricity": "16 MW",
+    "it_power": "12 MW",
+    "name": "Equinix DC13",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC13",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc13"
+  }
+},
+{
+  "type": "way",
+  "id": 300969614,
+  "center": {
+    "lat": 39.0033364,
+    "lon": -77.4870935
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building D",
+    "addr:housenumber": "43791",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "18 MW",
+    "it_power": "6.9 MW",
+    "name": "Digital Realty IAD14",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD14",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad14"
+  }
+},
+{
+  "type": "way",
+  "id": 300969615,
+  "center": {
+    "lat": 39.0027516,
+    "lon": -77.4854486
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building C",
+    "addr:housenumber": "43831",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "28 MW",
+    "name": "Amazon IAD-6",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "Digital Realty",
+    "ref": "IAD-6",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 300969616,
+  "center": {
+    "lat": 39.0020229,
+    "lon": -77.4833469
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building B",
+    "addr:housenumber": "43881",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "24 MW",
+    "it_power": "9 MW",
+    "name": "Digital Realty IAD12",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD12",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad12"
+  }
+},
+{
+  "type": "way",
+  "id": 300969617,
+  "center": {
+    "lat": 39.0027477,
+    "lon": -77.4819519
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building A",
+    "addr:housenumber": "43915",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "24 MW",
+    "name": "Digital Realty Devin Shafron Building A",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 300969619,
+  "center": {
+    "lat": 39.0043186,
+    "lon": -77.4844150
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building F",
+    "addr:housenumber": "43830",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "18 MW",
+    "it_power": "6.8 MW",
+    "name": "Digital Realty IAD24",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD24",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad24"
+  }
+},
+{
+  "type": "way",
+  "id": 300970759,
+  "center": {
+    "lat": 39.0154881,
+    "lon": -77.4821555
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21635",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "input:electricity": "28 MW",
+    "it_power": "9.9 MW",
+    "name": "DataBank IAD1",
+    "operator": "DataBank",
+    "operator:wikidata": "Q117314439",
+    "ref": "IAD1",
+    "telecom": "data_center",
+    "website": "https://www.databank.com/data-centers/northern-virginia/ashburn-campus/ashburn/"
+  }
+},
+{
+  "type": "way",
+  "id": 300970761,
+  "center": {
+    "lat": 39.0154867,
+    "lon": -77.4833483
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21625",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "input:electricity": "36 MW",
+    "it_power": "20 MW",
+    "name": "DataBank IAD4",
+    "operator": "DataBank",
+    "operator:wikidata": "Q117314439",
+    "ref": "IAD4",
+    "telecom": "data_center",
+    "website": "https://www.databank.com/data-centers/northern-virginia/ashburn-campus/iad4/"
+  }
+},
+{
+  "type": "way",
+  "id": 368724474,
+  "center": {
+    "lat": 38.9091392,
+    "lon": -77.2205568
+  },
+  "tags": {
+    "addr:city": "Vienna",
+    "addr:housenumber": "7990",
+    "addr:postcode": "22182",
+    "addr:state": "VA",
+    "addr:street": "Quantum Drive",
+    "building": "data_center",
+    "maxspeed:advisory": "25 mph",
+    "name": "Equinix DC7",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC7",
+    "source": "Bing",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc7"
+  }
+},
+{
+  "type": "way",
+  "id": 380282154,
+  "center": {
+    "lat": 39.0487658,
+    "lon": -77.4453971
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "45005",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Russell Branch Parkway",
+    "building": "data_center",
+    "name": "Visa Operations Center East",
+    "operator": "Visa",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 435324552,
+  "center": {
+    "lat": 39.0259023,
+    "lon": -77.4144697
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21111",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Ridgetop Circle",
+    "building": "data_center",
+    "input:electricity": "85 MW",
+    "it_power": "44 MW",
+    "name": "CyrusOne NVA1/NVA2/NVA3",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA1;NVA2;NVA3",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-va-nva1-nva3"
+  }
+},
+{
+  "type": "way",
+  "id": 435817145,
+  "center": {
+    "lat": 39.0243560,
+    "lon": -77.4341000
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21350",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "194 MW",
+    "it_power": "105 MW",
+    "name": "CyrusOne NVA5",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA5",
+    "start_date": "2019",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-va-nva5-nva7"
+  }
+},
+{
+  "type": "way",
+  "id": 450078003,
+  "center": {
+    "lat": 38.4548439,
+    "lon": -77.9781318
+  },
+  "tags": {
+    "addr:city": "Culpeper",
+    "addr:country": "US",
+    "addr:housenumber": "18155",
+    "addr:postcode": "22701",
+    "addr:state": "VA",
+    "addr:street": "Technology Drive",
+    "landuse": "industrial",
+    "name": "Equinix CU2",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "phone": "+1 540 825 9244",
+    "source": "Bing",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 460050155,
+  "center": {
+    "lat": 39.0210047,
+    "lon": -77.4514888
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21551",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "22 MW",
+    "name": "Equinix DC10",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "owner": "Digital Realty",
+    "ref": "DC10",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc10"
+  }
+},
+{
+  "type": "way",
+  "id": 460053028,
+  "center": {
+    "lat": 39.0263311,
+    "lon": -77.4516315
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Amazon Web Services Datacenter Complex",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460053030,
+  "center": {
+    "lat": 39.0288072,
+    "lon": -77.4588379
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Amazon Web Services",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056017,
+  "center": {
+    "lat": 38.9158051,
+    "lon": -77.4919869
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "43736",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Clubber Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-61",
+    "note": "Approximate position, waiting for new satellite imagery",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD-61",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056018,
+  "center": {
+    "lat": 38.9865152,
+    "lon": -77.4422565
+  },
+  "tags": {
+    "landuse": "industrial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056019,
+  "center": {
+    "lat": 38.9914123,
+    "lon": -77.4365107
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45220",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Prologis Plaza",
+    "building": "data_center",
+    "input:electricity": "19 MW",
+    "name": "Amazon IAD-51",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD51",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056020,
+  "center": {
+    "lat": 38.9905701,
+    "lon": -77.4370586
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45210",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Prologis Plaza",
+    "building": "data_center",
+    "input:electricity": "18 MW",
+    "name": "Amazon IAD-56",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD56",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056023,
+  "center": {
+    "lat": 38.9906864,
+    "lon": -77.4488397
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22651",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Dulles Summit Court",
+    "building": "data_center",
+    "input:electricity": "22 MW",
+    "name": "Amazon IAD-16",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD16",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460056024,
+  "center": {
+    "lat": 38.9917080,
+    "lon": -77.4485641
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22631",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Dulles Summit Court",
+    "building": "data_center",
+    "input:electricity": "32 MW",
+    "name": "Amazon IAD-15",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD15",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460059465,
+  "center": {
+    "lat": 38.7898846,
+    "lon": -77.5482287
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11801",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Brewers Spring Road",
+    "building": "data_center",
+    "name": "Amazon IAD-14",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-14",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460060340,
+  "center": {
+    "lat": 38.7921874,
+    "lon": -77.5484673
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7600",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Doane Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-59",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-59",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460060341,
+  "center": {
+    "lat": 38.7911185,
+    "lon": -77.5483863
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11800",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Brewers Spring Road",
+    "building": "data_center",
+    "name": "Amazon IAD-52",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-52",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460175664,
+  "center": {
+    "lat": 38.9942215,
+    "lon": -77.4482013
+  },
+  "tags": {
+    "addr:housenumber": "44874",
+    "addr:street": "Moran Road",
+    "building": "data_center",
+    "input:electricity": "11.5 MW",
+    "it_power": "4 MW",
+    "name": "QTS Ashburn Moran",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "owner": "Digital Realty",
+    "telecom": "data_center",
+    "website": "https://q.com/data-centers/ashburn-moran/"
+  }
+},
+{
+  "type": "way",
+  "id": 460175666,
+  "center": {
+    "lat": 39.0217816,
+    "lon": -77.4527978
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21561",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "12 MW",
+    "name": "Centersquare IAD4-A",
+    "operator": "Centersquare",
+    "operator:wikidata": "Q127304226",
+    "ref": "IAD4",
+    "source_ref": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-IAD-SpecSheet.pdf",
+    "telecom": "data_center",
+    "website": "https://centersquaredc.com/data-centers/northern-virginia#ashburn-iad4"
+  }
+},
+{
+  "type": "way",
+  "id": 460175672,
+  "center": {
+    "lat": 39.0050516,
+    "lon": -77.4856124
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building E",
+    "addr:housenumber": "43790",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Devin Shafron Drive",
+    "building": "data_center",
+    "input:electricity": "47 MW",
+    "name": "Amazon IAD-13",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "Digital Realty",
+    "ref": "IAD-13",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 463571875,
+  "center": {
+    "lat": 39.0263681,
+    "lon": -77.4495202
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44862",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Interconnection Plaza",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "it_power": "45 MW",
+    "name": "Amazon IAD-78",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-78",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 463571876,
+  "center": {
+    "lat": 39.0263574,
+    "lon": -77.4508704
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44858",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Interconnection Plaza",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "it_power": "47 MW",
+    "name": "Amazon IAD-79",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-79",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 465062052,
+  "center": {
+    "lat": 38.9918083,
+    "lon": -77.4411720
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45110",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Loudoun Downs Lane",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-88",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-88",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 465062053,
+  "center": {
+    "lat": 38.9909679,
+    "lon": -77.4418679
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45111",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Loudoun Downs Lane",
+    "building": "data_center",
+    "input:electricity": "37.5 MW",
+    "name": "Amazon IAD-89",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-89",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 490997243,
+  "center": {
+    "lat": 38.7779795,
+    "lon": -77.5590992
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7060",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Wellington Road",
+    "building": "data_center",
+    "name": "Amazon IAD-73",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-73",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 490997244,
+  "center": {
+    "lat": 38.7774374,
+    "lon": -77.5578909
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7008",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Wellington Road",
+    "building": "data_center",
+    "name": "Amazon IAD-74",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-74",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 544596573,
+  "center": {
+    "lat": 38.9168847,
+    "lon": -77.4932514
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "43701",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Clubber Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-63",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-63",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 545396372,
+  "center": {
+    "lat": 38.9493217,
+    "lon": -77.5198747
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "42949",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Fadeley Lane",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-62",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-62",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 556599693,
+  "center": {
+    "lat": 39.0279064,
+    "lon": -77.4574998
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21263",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Smith Switch Road",
+    "building": "data_center",
+    "input:electricity": "32.5 MW",
+    "it_power": "28 MW",
+    "name": "Amazon IAD-71",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-71",
+    "start_date": "2016",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 556599694,
+  "center": {
+    "lat": 39.0295615,
+    "lon": -77.4596546
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21271",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Smith Switch Road",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "it_power": "59 MW",
+    "name": "Amazon IAD-50",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-50",
+    "start_date": "2015",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 556599695,
+  "center": {
+    "lat": 39.0287737,
+    "lon": -77.4582461
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21267",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Smith Switch Road",
+    "building": "data_center",
+    "input:electricity": "32.5 MW",
+    "it_power": "28 MW",
+    "name": "Amazon IAD-60",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-60",
+    "start_date": "2016",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 596690174,
+  "center": {
+    "lat": 39.0271087,
+    "lon": -77.4528289
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44854",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Interconnection Plaza",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "it_power": "38 MW",
+    "name": "Amazon IAD-80",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-80",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 596690175,
+  "center": {
+    "lat": 39.0230155,
+    "lon": -77.4497875
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44790",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Performance Circle",
+    "building": "data_center",
+    "input:electricity": "21 MW",
+    "name": "Equinix DC12",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC12",
+    "start_date": "2017",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc12"
+  }
+},
+{
+  "type": "way",
+  "id": 597970806,
+  "center": {
+    "lat": 39.0015493,
+    "lon": -77.4793749
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building H",
+    "addr:housenumber": "43780",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Digital Loudoun Plaza",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "34 MW",
+    "it_power": "17 MW",
+    "name": "Digital Realty IAD36",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD36",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad36"
+  }
+},
+{
+  "type": "way",
+  "id": 597970809,
+  "center": {
+    "lat": 39.0005331,
+    "lon": -77.4805775
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building G",
+    "addr:housenumber": "43940",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Digital Loudoun Plaza",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "68 MW",
+    "it_power": "26 MW",
+    "name": "Digital Realty IAD35",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD35",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad35"
+  }
+},
+{
+  "type": "way",
+  "id": 597970811,
+  "center": {
+    "lat": 39.0000320,
+    "lon": -77.4780146
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building K",
+    "addr:housenumber": "44060",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Digital Loudoun Plaza",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "43 MW",
+    "it_power": "20 MW",
+    "name": "Digital Realty IAD37",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD37",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad37"
+  }
+},
+{
+  "type": "way",
+  "id": 597970813,
+  "center": {
+    "lat": 39.0010841,
+    "lon": -77.4772014
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building J",
+    "addr:housenumber": "44100",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Digital Loudoun Plaza",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "36 MW",
+    "it_power": "17 MW",
+    "name": "Digital Realty IAD38",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD38",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 610977485,
+  "center": {
+    "lat": 39.0250127,
+    "lon": -77.4576402
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44610",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Guilford Drive",
+    "building": "data_center",
+    "input:electricity": "29 MW",
+    "it_power": "14 MW",
+    "name": "NTT VA2",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA2",
+    "telecom": "data_center",
+    "website": "https://www.nttdata.com/en-us/services/global-data-centers/global-locations/americas/northern-virginia-data-centers/ashburn-va-2-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 649319778,
+  "center": {
+    "lat": 39.0174720,
+    "lon": -77.4656752
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21625",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gresham Court",
+    "building": "data_center",
+    "input:electricity": "63 MW",
+    "it_power": "34 MW",
+    "name": "Digital Realty ACC7",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "ACC7",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/acc7"
+  }
+},
+{
+  "type": "way",
+  "id": 649365751,
+  "center": {
+    "lat": 39.0172250,
+    "lon": -77.4703718
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44245",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gigabit Plaza",
+    "building": "data_center",
+    "input:electricity": "33 MW",
+    "it_power": "16 MW",
+    "name": "NTT VA3",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA3",
+    "start_date": "2018",
+    "telecom": "data_center",
+    "website": "https://www.nttdata.com/en-us/services/global-data-centers/global-locations/americas/northern-virginia-data-centers/ashburn-va-3-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 649365764,
+  "center": {
+    "lat": 39.0154331,
+    "lon": -77.4673732
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21745",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Sir Timothy Drive",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "it_power": "29 MW",
+    "name": "Digital Realty ACC9",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "ACC9",
+    "start_date": "2017",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 667573133,
+  "center": {
+    "lat": 38.7793815,
+    "lon": -77.5417245
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "8200",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Bethlehem Road",
+    "building": "data_center",
+    "name": "Amazon IAD-75",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD85",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 693381106,
+  "center": {
+    "lat": 38.9486869,
+    "lon": -77.5209516
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "42948",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Fadeley Lane",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-68",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-68",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 693381107,
+  "center": {
+    "lat": 38.9483877,
+    "lon": -77.5218303
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24178",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Upper Woodside Lane",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-81",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-81",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 693385812,
+  "center": {
+    "lat": 38.9432045,
+    "lon": -77.5243301
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24400",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Howling Rooster Lane",
+    "building": "data_center",
+    "input:electricity": "38 MW",
+    "name": "Google Arcola Building 1",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "operator:wikipedia": "en:Google",
+    "ref": "ARA1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 693390022,
+  "center": {
+    "lat": 38.9579165,
+    "lon": -77.4980579
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "23825",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Erins Run Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-120",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-120",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 693390023,
+  "center": {
+    "lat": 38.9567768,
+    "lon": -77.4977837
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "23835",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Erins Run Drive",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-121",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-121",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 696978351,
+  "center": {
+    "lat": 39.0119890,
+    "lon": -77.4717158
+  },
+  "tags": {
+    "building": "data_center",
+    "input:electricity": "16 MW",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 696985482,
+  "center": {
+    "lat": 38.9995402,
+    "lon": -77.4498559
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 696992451,
+  "center": {
+    "lat": 38.7908136,
+    "lon": -77.5484173
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 697020849,
+  "center": {
+    "lat": 38.9863003,
+    "lon": -77.4418855
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22745",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Relocation Drive",
+    "building": "data_center",
+    "input:electricity": "36 MW",
+    "name": "Amazon IAD-58",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-58",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 697020850,
+  "center": {
+    "lat": 38.9869931,
+    "lon": -77.4426325
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22755",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Relocation Drive",
+    "building": "data_center",
+    "input:electricity": "33 MW",
+    "name": "Amazon IAD-57",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-57",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 697021948,
+  "center": {
+    "lat": 38.8151324,
+    "lon": -77.6529193
+  },
+  "tags": {
+    "addr:city": "Haymarket",
+    "addr:housenumber": "15465",
+    "addr:postcode": "20169",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-64",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-64",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 697021949,
+  "center": {
+    "lat": 38.8159745,
+    "lon": -77.6525395
+  },
+  "tags": {
+    "landuse": "industrial",
+    "operator": "Amazon",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701923200,
+  "center": {
+    "lat": 38.9995277,
+    "lon": -77.4501109
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22271",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Broderick Drive",
+    "building": "data_center",
+    "input:electricity": "77 MW",
+    "it_power": "55 MW",
+    "name": "QTS Ashburn 1 DC1",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC1",
+    "telecom": "data_center",
+    "website": "https://q.com/data-centers/ashburn-1/"
+  }
+},
+{
+  "type": "way",
+  "id": 701923202,
+  "center": {
+    "lat": 39.0066187,
+    "lon": -77.4664074
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44540",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Round Table Plaza",
+    "building": "data_center",
+    "input:electricity": "60 MW",
+    "it_power": "16 MW",
+    "name": "Digital Realty IAD73",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD73",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701923203,
+  "center": {
+    "lat": 39.0076143,
+    "lon": -77.4676305
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Building L",
+    "addr:housenumber": "44274",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Round Table Plaza",
+    "building": "data_center",
+    "building:levels": "2",
+    "input:electricity": "192 MW",
+    "it_power": "96 MW",
+    "name": "Digital Realty IAD39",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "IAD39",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad39"
+  }
+},
+{
+  "type": "way",
+  "id": 701923204,
+  "center": {
+    "lat": 39.0126563,
+    "lon": -77.4656035
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21744",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Sir Timothy Drive",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "it_power": "27 MW",
+    "name": "Digital Realty ACC10",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "ACC10",
+    "start_date": "2018",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701924664,
+  "center": {
+    "lat": 39.0006465,
+    "lon": -77.4398077
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22262",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Cloud Plaza",
+    "building": "data_center",
+    "description": "Google",
+    "input:electricity": "66 MW",
+    "name": "Sentinel Cloud Plaza",
+    "operator": "GI Partners",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701924665,
+  "center": {
+    "lat": 39.0023794,
+    "lon": -77.4376878
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45200",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Vantage Data Plaza",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Vantage VA11",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA11",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701924667,
+  "center": {
+    "lat": 38.9886031,
+    "lon": -77.4116516
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45900",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pathfinder Plaza",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-90",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-90",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701924668,
+  "center": {
+    "lat": 38.9878471,
+    "lon": -77.4111191
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45930",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pathfinder Plaza",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-91",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-91",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701924669,
+  "center": {
+    "lat": 38.9869426,
+    "lon": -77.4104754
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45950",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pathfinder Plaza",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-92",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-92",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701929066,
+  "center": {
+    "lat": 38.9816350,
+    "lon": -77.4274289
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22945",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "38 MW",
+    "name": "Amazon IAD-144",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-144",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701930919,
+  "center": {
+    "lat": 39.0211789,
+    "lon": -77.4132443
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45905",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Maries Road",
+    "building": "data_center",
+    "input:electricity": "48 MW",
+    "it_power": "24 MW",
+    "name": "CyrusOne NVA8",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA8",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-virginia-nva8"
+  }
+},
+{
+  "type": "way",
+  "id": 701930920,
+  "center": {
+    "lat": 39.0202249,
+    "lon": -77.4338857
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45295",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "West Severn Way",
+    "building": "data_center",
+    "input:electricity": "37 MW",
+    "name": "Amazon IAD-98",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "COPT",
+    "ref": "IAD-98",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701930921,
+  "center": {
+    "lat": 39.0191689,
+    "lon": -77.4340299
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45305",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "West Severn Way",
+    "building": "data_center",
+    "input:electricity": "37 MW",
+    "name": "Amazon IAD-99",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "COPT",
+    "ref": "IAD-99",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701930929,
+  "center": {
+    "lat": 39.0354940,
+    "lon": -77.4506986
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "20945",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "it_power": "47 MW",
+    "name": "Amazon IAD-114",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-114",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701930930,
+  "center": {
+    "lat": 39.0362941,
+    "lon": -77.4497948
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "20935",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "it_power": "47 MW",
+    "name": "Amazon IAD-115",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-115",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701931819,
+  "center": {
+    "lat": 38.9170108,
+    "lon": -77.4943665
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "25316",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Prediction Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-65",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-65",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 701931820,
+  "center": {
+    "lat": 38.9160727,
+    "lon": -77.4772491
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "25430",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Sutton Bay Plaza",
+    "building": "data_center",
+    "name": "Amazon IAD-150",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-150",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 706726088,
+  "center": {
+    "lat": 39.0514670,
+    "lon": -77.5394376
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42300",
+    "addr:state": "VA",
+    "addr:street": "Red Triangle Lane",
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Stonewall Creek Business Park",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 708916484,
+  "center": {
+    "lat": 39.0154219,
+    "lon": -77.4782699
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21741",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "it_power": "7.4 MW",
+    "name": "Sabey Ashburn Building C",
+    "operator": "Sabey Data Centers",
+    "operator:wikidata": "Q104864464",
+    "start_date": "2017",
+    "telecom": "data_center",
+    "website": "https://sabeydatacenters.com/locations/ashburn-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 710070925,
+  "center": {
+    "lat": 39.0526328,
+    "lon": -77.5395732
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "20491",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Goose Landing Lane",
+    "building": "data_center",
+    "building:levels": "2",
+    "height": "60",
+    "name": "Google Leesburg Building 1",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 714622339,
+  "center": {
+    "lat": 38.9433210,
+    "lon": -77.5261637
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Google Data Center",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 744491691,
+  "center": {
+    "lat": 38.9825519,
+    "lon": -77.4246299
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22916",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-145",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-145",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 744496741,
+  "center": {
+    "lat": 39.0236982,
+    "lon": -77.4190947
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45761",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Maries Road",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-117",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-117",
+    "source_ref": "https://www.commercialsearch.com/news/blackstone-lands-550m-for-data-center-portfolio/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 744496750,
+  "center": {
+    "lat": 39.0243461,
+    "lon": -77.4204393
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45771",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Maries Road",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-116",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-116",
+    "source_ref": "https://www.commercialsearch.com/news/blackstone-lands-550m-for-data-center-portfolio/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 793087858,
+  "center": {
+    "lat": 39.0088059,
+    "lon": -77.4582358
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44751",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Round Table Plaza",
+    "building": "data_center",
+    "input:electricity": "135 MW",
+    "it_power": "70 MW",
+    "name": "Digital Realty IAD41",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD41",
+    "start_date": "2020",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 793087859,
+  "center": {
+    "lat": 39.0185086,
+    "lon": -77.4388362
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21641",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Charles View Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-118",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-118",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 793622740,
+  "center": {
+    "lat": 39.0136079,
+    "lon": -77.4705563
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21890",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Uunet Drive",
+    "building": "data_center",
+    "input:electricity": "112 MW",
+    "it_power": "60 MW",
+    "name": "Aligned IAD-01",
+    "operator": "Aligned",
+    "ref": "IAD-01",
+    "start_date": "2020",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 793888408,
+  "center": {
+    "lat": 39.0225001,
+    "lon": -77.4502558
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44780",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Performance Circle",
+    "building": "data_center",
+    "input:electricity": "32 MW",
+    "name": "Equinix DC15",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC15",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc15"
+  }
+},
+{
+  "type": "way",
+  "id": 793888427,
+  "center": {
+    "lat": 39.0144933,
+    "lon": -77.4799773
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21745",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "it_power": "23 MW",
+    "name": "Sabey Ashburn Building B",
+    "operator": "Sabey Data Centers",
+    "operator:wikidata": "Q104864464",
+    "start_date": "2019",
+    "telecom": "data_center",
+    "website": "https://sabeydatacenters.com/locations/ashburn-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 793888429,
+  "center": {
+    "lat": 39.0183033,
+    "lon": -77.4726110
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21583",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Megawatt Drive",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "it_power": "32 MW",
+    "name": "NTT VA5",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA5",
+    "start_date": "2020",
+    "telecom": "data_center",
+    "website": "https://www.nttdata.com/en-us/services/global-data-centers/global-locations/americas/northern-virginia-data-centers/ashburn-va-5-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 793888430,
+  "center": {
+    "lat": 39.0198684,
+    "lon": -77.4725917
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21583",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Megawatt Drive",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "it_power": "32 MW",
+    "name": "NTT VA4",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA4",
+    "start_date": "2019",
+    "telecom": "data_center",
+    "website": "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/americas/ashburn-va-4-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 794147654,
+  "center": {
+    "lat": 39.0102471,
+    "lon": -77.4626713
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21955",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "data_center",
+    "input:electricity": "264 MW",
+    "it_power": "144 MW",
+    "name": "CloudHQ LC1",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC1",
+    "start_date": "2020",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/campus/lc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 794147655,
+  "center": {
+    "lat": 39.0117541,
+    "lon": -77.4624624
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44621",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Waxpool Road",
+    "building": "data_center",
+    "input:electricity": "162 MW",
+    "it_power": "96 MW",
+    "name": "CloudHQ LC2",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC2",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/campus/lc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 794147657,
+  "center": {
+    "lat": 38.9967211,
+    "lon": -77.4355972
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22370",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Kipper Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-146",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-146",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 796933516,
+  "center": {
+    "lat": 39.0118055,
+    "lon": -77.4545100
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22175",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "building:levels": "3",
+    "input:electricity": "25 MW",
+    "name": "Equinix DC21",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC21",
+    "start_date": "2020",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc21"
+  }
+},
+{
+  "type": "way",
+  "id": 817338831,
+  "center": {
+    "lat": 38.9814552,
+    "lon": -77.4175501
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22900",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Platform Plaza",
+    "building": "data_center",
+    "input:electricity": "55 MW",
+    "name": "Amazon IAD-140",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-140",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 817338832,
+  "center": {
+    "lat": 38.9823877,
+    "lon": -77.4167858
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22890",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Platform Plaza",
+    "building": "data_center",
+    "input:electricity": "55 MW",
+    "name": "Amazon IAD-141",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "owner": "COPT",
+    "ref": "IAD-141",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 828135845,
+  "center": {
+    "lat": 38.8161031,
+    "lon": -77.6524994
+  },
+  "tags": {
+    "addr:city": "Haymarket",
+    "addr:housenumber": "15455;15459",
+    "addr:postcode": "20169",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-84",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-84",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 840582927,
+  "center": {
+    "lat": 39.0176781,
+    "lon": -78.2909424
+  },
+  "tags": {
+    "addr:city": "Middletown",
+    "addr:housenumber": "8209",
+    "addr:state": "VA",
+    "addr:street": "Valley Pike",
+    "landuse": "industrial",
+    "name": "Middletown Data Center",
+    "telecom": "data_center",
+    "website": "https://www.middletowndatacenter.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 844374689,
+  "center": {
+    "lat": 39.0506010,
+    "lon": -77.5400225
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "20481",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Goose Landing Lane",
+    "building": "data_center",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 852039781,
+  "center": {
+    "lat": 39.0169314,
+    "lon": -77.4393886
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21645",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Charles View Drive",
+    "building": "data_center",
+    "input:electricity": "60 MW",
+    "name": "Amazon IAD-119",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-119",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 882977350,
+  "center": {
+    "lat": 38.7170622,
+    "lon": -77.4999396
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10880",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Airman Avenue",
+    "building": "data_center",
+    "name": "CloudHQ MCC1",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "MCC1",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/location/mcc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 886028872,
+  "center": {
+    "lat": 39.0160803,
+    "lon": -77.4383818
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21710",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Charles View Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-129",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-129",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 886330269,
+  "center": {
+    "lat": 39.0747869,
+    "lon": -77.5641290
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "19515",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Compass Creek Parkway",
+    "building": "data_center",
+    "name": "Microsoft Leesburg Building 1",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 897226569,
+  "center": {
+    "lat": 38.9495184,
+    "lon": -77.5594451
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "24214;24224;24234;24244;24254;24258",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Quail Ridge Lane",
+    "name": "Microsoft",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "source": "https://www.bizjournals.com/washington/news/2020/08/13/microsoft-buys-more-loudoun-data-center-land.html;https://reparcelasmt.loudoun.gov/pt/datalets/datalet.aspx?mode=profileall&UseSearch=no&pin=246200886000&jur=107&taxyr=2020&LMparent=20",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 897226573,
+  "center": {
+    "lat": 38.9492681,
+    "lon": -77.5556264
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Arcola Tech Park",
+    "opening_date": "2030",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 897226574,
+  "center": {
+    "lat": 38.9480895,
+    "lon": -77.5605449
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "24224",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Quail Ridge Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-125",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-125",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 897226575,
+  "center": {
+    "lat": 38.9498954,
+    "lon": -77.5604517
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "24244",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Quail Ridge Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-124",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-124",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 909455922,
+  "center": {
+    "lat": 39.0441027,
+    "lon": -77.5397106
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42310",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Thunderball Drive",
+    "building": "data_center",
+    "building:levels": "1",
+    "name": "42310 THUNDERBALL DR",
+    "operator": "True North Data Solutions",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 930849744,
+  "center": {
+    "lat": 39.0323054,
+    "lon": -77.4297021
+  },
+  "tags": {
+    "addr:city": "Dulles",
+    "addr:housenumber": "21195",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Atlantic Boulevard",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-163",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-163",
+    "start_date": "2022",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 954433119,
+  "center": {
+    "lat": 38.9798678,
+    "lon": -77.4254760
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "23005",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "International Drive",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-175",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-175",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 958662382,
+  "center": {
+    "lat": 38.9950101,
+    "lon": -77.4353604
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22420",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Kipper Drive",
+    "building": "data_center",
+    "input:electricity": "50 MW",
+    "name": "Amazon IAD-147",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-147",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 983627455,
+  "center": {
+    "lat": 39.0263152,
+    "lon": -77.4340194
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21340",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "36 MW",
+    "name": "CyrusOne NVA7",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA7",
+    "start_date": "2020",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-va-nva5-nva7"
+  }
+},
+{
+  "type": "way",
+  "id": 984953813,
+  "center": {
+    "lat": 39.0289143,
+    "lon": -77.4274784
+  },
+  "tags": {
+    "addr:city": "Dulles",
+    "addr:housenumber": "21215",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Atlantic Boulevard",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-174",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-174",
+    "start_date": "2022",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 984953814,
+  "center": {
+    "lat": 39.0304712,
+    "lon": -77.4289455
+  },
+  "tags": {
+    "addr:city": "Dulles",
+    "addr:housenumber": "21205",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Atlantic Boulevard",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-164",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-164",
+    "start_date": "2022",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 985207884,
+  "center": {
+    "lat": 39.0017910,
+    "lon": -77.4380570
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45194",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Vantage Data Plaza",
+    "building": "data_center",
+    "input:electricity": "55 MW",
+    "name": "Vantage VA12",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA12",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 986829280,
+  "center": {
+    "lat": 39.0755079,
+    "lon": -77.5630354
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "19525",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Compass Creek Parkway",
+    "building": "data_center",
+    "name": "Microsoft Leesburg Building 2",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 989735623,
+  "center": {
+    "lat": 38.9165716,
+    "lon": -77.4797330
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "25390",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Sutton Bay Plaza",
+    "building": "data_center",
+    "name": "Amazon IAD-152",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-152",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 989735624,
+  "center": {
+    "lat": 38.9161469,
+    "lon": -77.4786956
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "25420",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Sutton Bay Plaza",
+    "building": "data_center",
+    "name": "Amazon IAD-151",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-151",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 990537813,
+  "center": {
+    "lat": 38.9479489,
+    "lon": -77.5230989
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24185",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Upper Woodside Lane",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-83",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-83",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 990537821,
+  "center": {
+    "lat": 38.9465392,
+    "lon": -77.5221879
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "42770",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Main Marconi Lane",
+    "building": "data_center",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD93",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 990537857,
+  "center": {
+    "lat": 38.9558707,
+    "lon": -77.4971865
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "23845",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Erins Run Drive",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-122",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-122",
+    "start_date": "2019",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 990537858,
+  "center": {
+    "lat": 38.9583294,
+    "lon": -77.5057300
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "43290;43294",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Old Ox Road",
+    "building": "data_center",
+    "input:electricity": "135 MW",
+    "it_power": "38 MW",
+    "name": "CyrusOne Sterling NVA9",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA9",
+    "source": "https://static.datacentermap.com/company/cyrusone/datacenter9320/2022-NVA9_Nothern-Virginia-Sterling.pdf",
+    "telecom": "data_center",
+    "website": "https://www.cyrusone.com/data-centers/north-america/sterling-virginia-nva9"
+  }
+},
+{
+  "type": "way",
+  "id": 996723585,
+  "center": {
+    "lat": 38.7772373,
+    "lon": -77.5459965
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11660",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hayden Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-2",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-2",
+    "telecom": "data_center",
+    "website": "https://www.ironmountain.com/resources/solution-guides/d/data-centers-northern-virginia-va-2"
+  }
+},
+{
+  "type": "way",
+  "id": 996723586,
+  "center": {
+    "lat": 38.7779630,
+    "lon": -77.5471012
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11680",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hayden Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-1",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-1",
+    "telecom": "data_center",
+    "website": "https://www.ironmountain.com/resources/solution-guides/d/data-centers-northern-virginia-va-1"
+  }
+},
+{
+  "type": "way",
+  "id": 996723587,
+  "center": {
+    "lat": 38.7801515,
+    "lon": -77.5398838
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "8190",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Bethlehem Road",
+    "building": "data_center",
+    "name": "Amazon IAD-96",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-96",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996723588,
+  "center": {
+    "lat": 38.7784509,
+    "lon": -77.5394270
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "8180",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Bethlehem Road",
+    "building": "data_center",
+    "name": "Amazon IAD-95",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996723589,
+  "center": {
+    "lat": 38.7793425,
+    "lon": -77.5428960
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "8210",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Bethlehem Road",
+    "building": "data_center",
+    "name": "Amazon IAD-85",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD75",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996899486,
+  "center": {
+    "lat": 38.7359728,
+    "lon": -77.5048957
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10281",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Tanner Way",
+    "building": "data_center",
+    "name": "Amazon IAD-102",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-102",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996899487,
+  "center": {
+    "lat": 38.7354375,
+    "lon": -77.5057008
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10301",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Tanner Way",
+    "building": "data_center",
+    "name": "Amazon IAD-101",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-101",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996899488,
+  "center": {
+    "lat": 38.7345976,
+    "lon": -77.5066419
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10321",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Tanner Way",
+    "building": "data_center",
+    "name": "Amazon IAD-100",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-100",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 996899489,
+  "center": {
+    "lat": 38.7231919,
+    "lon": -77.4989708
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10100",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Harry J Parrish Boulevard",
+    "building": "data_center",
+    "name": "CloudHQ MCC2",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "MCC2",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/location/mcc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 1000784035,
+  "center": {
+    "lat": 38.7430518,
+    "lon": -77.5333746
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9750",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "name": "STACK NVA02A",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center",
+    "tenant": "Amazon Web Services",
+    "tenant:ref": "IAD-108",
+    "tenant:short": "AWS"
+  }
+},
+{
+  "type": "way",
+  "id": 1003348567,
+  "center": {
+    "lat": 38.9980776,
+    "lon": -77.4754706
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22291",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Shellhorn Road",
+    "building": "data_center",
+    "input:electricity": "80 MW",
+    "it_power": "42 MW",
+    "name": "QTS Ashburn 3 DC1",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1015995259,
+  "center": {
+    "lat": 38.7788593,
+    "lon": -77.5571158
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7080",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Wellington Road",
+    "building": "data_center",
+    "name": "Amazon IAD601",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD601",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1020877488,
+  "center": {
+    "lat": 38.9958502,
+    "lon": -77.4712939
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44305",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Import Plaza",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-162",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-162",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1020877489,
+  "center": {
+    "lat": 38.9966044,
+    "lon": -77.4732601
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44254",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Import Plaza",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-161",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-161",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1020953454,
+  "center": {
+    "lat": 39.0048431,
+    "lon": -77.4851266
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Digital Loudoun Plaza",
+    "owner": "Digital Realty",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1020953461,
+  "center": {
+    "lat": 39.0016288,
+    "lon": -77.4823625
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Digital Loudoun Plaza",
+    "owner": "Digital Realty",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1022757170,
+  "center": {
+    "lat": 38.9848368,
+    "lon": -77.4259111
+  },
+  "tags": {
+    "barrier": "fence",
+    "landuse": "industrial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1025002889,
+  "center": {
+    "lat": 39.0056891,
+    "lon": -77.4494637
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22125",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Broderick Drive",
+    "building": "data_center",
+    "input:electricity": "90 MW",
+    "it_power": "48 MW",
+    "name": "Digital Realty IAD42",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD42",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1037871048,
+  "center": {
+    "lat": 39.0152596,
+    "lon": -77.4377755
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "21660",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Charles View Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-601",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-601",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1059030596,
+  "center": {
+    "lat": 38.7442865,
+    "lon": -77.5333323
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9720",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "name": "STACK NVA02B",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center",
+    "tenant": "Amazon Web Services",
+    "tenant:ref": "IAD-109",
+    "tenant:short": "AWS"
+  }
+},
+{
+  "type": "way",
+  "id": 1059036248,
+  "center": {
+    "lat": 38.7464235,
+    "lon": -77.5368682
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9590",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "height": "12",
+    "name": "STACK NVA02D",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "Piedmont Environmental Council, Virginia Data Centers;https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1059037050,
+  "center": {
+    "lat": 38.7438863,
+    "lon": -77.5306249
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11120",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Thomasson Barn Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "name": "Amazon IAD-132",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-132",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1059037051,
+  "center": {
+    "lat": 38.7440549,
+    "lon": -77.5291961
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11150",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Thomasson Barn Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "name": "Amazon IAD-133",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-133",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1064211366,
+  "center": {
+    "lat": 38.9959297,
+    "lon": -77.4562445
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "QTS Ashburn Lockridge",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "ASH2",
+    "telecom": "data_center",
+    "website": "https://q.com/data-centers/ashburn-2/"
+  }
+},
+{
+  "type": "way",
+  "id": 1088203906,
+  "center": {
+    "lat": 39.0167452,
+    "lon": -77.4520059
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21320",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-169",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-169",
+    "start_date": "2022",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1088203907,
+  "center": {
+    "lat": 39.0158850,
+    "lon": -77.4531399
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21310",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "45 MW",
+    "name": "Amazon IAD-179",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-179",
+    "start_date": "2022",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1088241977,
+  "center": {
+    "lat": 39.0104171,
+    "lon": -77.4751585
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21821",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Uunet Drive",
+    "building": "data_center",
+    "input:electricity": "140 MW",
+    "it_power": "120 MW",
+    "name": "Aligned IAD-02",
+    "operator": "Aligned",
+    "ref": "IAD-02",
+    "start_date": "2021",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1088241982,
+  "center": {
+    "lat": 39.0130484,
+    "lon": -77.4730942
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21838",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Uunet Drive",
+    "building": "data_center",
+    "name": "IAD",
+    "operator": "Aligned",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "start_date": "2020",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1090837713,
+  "center": {
+    "lat": 38.7547679,
+    "lon": -77.5173876
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9301",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "name": "QTS Manassas DC5",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC5",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1106454555,
+  "center": {
+    "lat": 38.9795634,
+    "lon": -77.4174915
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45775",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Optics Plaza",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-143",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-143",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1123249721,
+  "center": {
+    "lat": 39.0242346,
+    "lon": -77.4522875
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44740",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Performance Circle",
+    "building": "data_center",
+    "building:levels": "4",
+    "input:electricity": "32 MW",
+    "name": "Equinix DC16",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC16",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc16"
+  }
+},
+{
+  "type": "way",
+  "id": 1124864831,
+  "center": {
+    "lat": 38.9482582,
+    "lon": -77.5559109
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "41840",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Growth Mindset Lane",
+    "building": "data_center",
+    "name": "Microsoft IAD11",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "ref": "IAD11",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1128589933,
+  "center": {
+    "lat": 39.0696487,
+    "lon": -77.5607711
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "41730",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Inclusion Lane Southeast",
+    "building": "data_center",
+    "name": "Microsoft Leesburg Building 3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1128589934,
+  "center": {
+    "lat": 39.0696560,
+    "lon": -77.5594332
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "41720",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Inclusion Lane Southeast",
+    "building": "data_center",
+    "name": "Microsoft Leesburg Building 4",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1134104431,
+  "center": {
+    "lat": 38.9514551,
+    "lon": -77.3639990
+  },
+  "tags": {
+    "addr:city": "Reston",
+    "addr:housenumber": "12098",
+    "addr:postcode": "20191",
+    "addr:state": "VA",
+    "addr:street": "Sunrise Valley Drive",
+    "building": "data_center",
+    "name": "CoreSite VA2",
+    "operator": "CoreSite",
+    "operator:wikidata": "Q5170140",
+    "ref": "VA2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1134911640,
+  "center": {
+    "lat": 38.7475999,
+    "lon": -77.5194800
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9650",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Innovation Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-105",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-105",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1134911641,
+  "center": {
+    "lat": 38.7483699,
+    "lon": -77.5207001
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "Amazon IAD-104",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-104",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1134911642,
+  "center": {
+    "lat": 38.7525433,
+    "lon": -77.5131080
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9400",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Godwin Drive",
+    "building": "data_center",
+    "name": "QTS Manassas DC1",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1161094246,
+  "center": {
+    "lat": 38.9791470,
+    "lon": -77.4199050
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45795",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Optics Plaza",
+    "building": "data_center",
+    "input:electricity": "40 MW",
+    "name": "Amazon IAD-142",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-142",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1161730862,
+  "center": {
+    "lat": 38.9572529,
+    "lon": -77.4978409
+  },
+  "tags": {
+    "landuse": "industrial",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1173770902,
+  "center": {
+    "lat": 38.9418116,
+    "lon": -77.5274514
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24550",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Howling Rooster Lane",
+    "building": "data_center",
+    "input:electricity": "93 MW",
+    "name": "Google Arcola Building 2",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "ref": "ARA2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1177893426,
+  "center": {
+    "lat": 38.9815474,
+    "lon": -77.4193688
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22940",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Platform Plaza",
+    "building": "data_center",
+    "input:electricity": "2.5 MW",
+    "name": "Amazon IAD-603",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-603",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1181391920,
+  "center": {
+    "lat": 38.9172562,
+    "lon": -77.4956744
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "25311",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Prediction Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-86",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-86",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1181391921,
+  "center": {
+    "lat": 38.7603606,
+    "lon": -77.5193019
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9040",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "name": "Amazon IAD-130",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-130",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1181391922,
+  "center": {
+    "lat": 38.7611048,
+    "lon": -77.5182210
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9020",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "name": "Amazon IAD-131",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-131",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188680247,
+  "center": {
+    "lat": 38.9987099,
+    "lon": -77.4743264
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22271",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Shellhorn Road",
+    "building": "data_center",
+    "input:electricity": "80 MW",
+    "it_power": "42 MW",
+    "name": "QTS Ashburn 3 DC2",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188680253,
+  "center": {
+    "lat": 38.9953067,
+    "lon": -77.4552640
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "44675",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Quality Tech Lane",
+    "building": "data_center",
+    "input:electricity": "72 MW",
+    "name": "QTS Ashburn 2 DC1",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188680254,
+  "center": {
+    "lat": 38.9951808,
+    "lon": -77.4568191
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "44655",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Quality Tech Lane",
+    "building": "data_center",
+    "input:electricity": "63 MW",
+    "name": "QTS Ashburn 2 DC2",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188680255,
+  "center": {
+    "lat": 38.9895600,
+    "lon": -77.4348017
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22574",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-192",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-192",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188691867,
+  "center": {
+    "lat": 39.0170430,
+    "lon": -77.4733379
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44495",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gigabit Plaza",
+    "building": "data_center",
+    "input:electricity": "52 MW",
+    "it_power": "24 MW",
+    "name": "NTT VA6",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA6",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188691868,
+  "center": {
+    "lat": 39.0201893,
+    "lon": -77.4755090
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44710",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gigabit Plaza",
+    "building": "data_center",
+    "name": "NTT VA9",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA9",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1188691869,
+  "center": {
+    "lat": 39.0179043,
+    "lon": -77.4818188
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21630",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "input:electricity": "75 MW",
+    "it_power": "40 MW",
+    "name": "DataBank IAD3",
+    "operator": "DataBank",
+    "operator:wikidata": "Q117314439",
+    "ref": "IAD3",
+    "telecom": "data_center",
+    "website": "https://www.databank.com/data-centers/northern-virginia/ashburn-campus/iad3/"
+  }
+},
+{
+  "type": "way",
+  "id": 1188715508,
+  "center": {
+    "lat": 39.0195992,
+    "lon": -77.4504568
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21529",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "60 MW",
+    "it_power": "36 MW",
+    "name": "CyrusOne NVA14",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "ABX-1",
+    "telecom": "data_center",
+    "website": "https://www.powerhousedata.com/data-center/powerhouse-abx-1"
+  }
+},
+{
+  "type": "way",
+  "id": 1188715510,
+  "center": {
+    "lat": 39.0179257,
+    "lon": -77.4595164
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21745",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "building:levels": "3",
+    "input:electricity": "167 MW",
+    "it_power": "120 MW",
+    "name": "Cologix ASH1",
+    "operator": "Cologix",
+    "operator:wikidata": "Q18348355",
+    "ref": "ASH1",
+    "telecom": "data_center",
+    "website": "https://cologix.com/data-centers/ashburn/ash1/"
+  }
+},
+{
+  "type": "way",
+  "id": 1221862807,
+  "center": {
+    "lat": 38.7469789,
+    "lon": -77.5185240
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "Amazon IAD-106",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-106",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1222134968,
+  "center": {
+    "lat": 38.9491488,
+    "lon": -77.5235942
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24141",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Upper Woodside Lane",
+    "building": "data_center",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD609",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1227539675,
+  "center": {
+    "lat": 38.8033786,
+    "lon": -77.5105458
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "7400",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Infantry Ridge Road",
+    "barrier": "fence",
+    "landuse": "industrial",
+    "name": "Equinix DC14",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC14",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc14"
+  }
+},
+{
+  "type": "way",
+  "id": 1227612684,
+  "center": {
+    "lat": 38.7369848,
+    "lon": -77.5040881
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10261",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Tanner Way",
+    "building": "data_center",
+    "name": "Amazon IAD-103",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-103",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1227614670,
+  "center": {
+    "lat": 38.7150171,
+    "lon": -77.4951199
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10900",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Airman Avenue",
+    "building": "data_center",
+    "name": "CloudHQ MCC6A",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "MCC6A",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/location/mcc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 1227777116,
+  "center": {
+    "lat": 39.0032126,
+    "lon": -77.4401750
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45070",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Vantage Data Plaza",
+    "building": "data_center",
+    "input:electricity": "91 MW",
+    "name": "Vantage VA13",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA13",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196797,
+  "center": {
+    "lat": 38.9043442,
+    "lon": -77.4524692
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "3980",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Virginia Mallory Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-134",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-134",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196798,
+  "center": {
+    "lat": 38.9048369,
+    "lon": -77.4547504
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "3960",
+    "addr:postcode": "20151",
+    "addr:state": "VA",
+    "addr:street": "Virginia Mallory Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-135",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-135",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196799,
+  "center": {
+    "lat": 38.9159035,
+    "lon": -77.4905509
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "43774",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Clubber Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-155",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-155",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196800,
+  "center": {
+    "lat": 38.9149908,
+    "lon": -77.4909743
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "43764",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Clubber Lane",
+    "building": "data_center",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196815,
+  "center": {
+    "lat": 38.7761446,
+    "lon": -77.5825144
+  },
+  "tags": {
+    "addr:city": "Bristow",
+    "addr:housenumber": "13045;13051",
+    "addr:postcode": "20136",
+    "addr:state": "VA",
+    "addr:street": "Rollins Ford Road",
+    "building": "data_center",
+    "name": "Google Mango Farm Building 1",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196825,
+  "center": {
+    "lat": 38.7461526,
+    "lon": -77.5172227
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9740",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Innovation Drive",
+    "building": "data_center",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1252196826,
+  "center": {
+    "lat": 38.9213052,
+    "lon": -77.4858007
+  },
+  "tags": {
+    "addr:city": "Chantilly",
+    "addr:housenumber": "43920",
+    "addr:postcode": "20152",
+    "addr:state": "VA",
+    "addr:street": "Lone Cedar Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-156",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-156",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1253282099,
+  "center": {
+    "lat": 38.9950569,
+    "lon": -77.4710738
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44351",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Import Plaza",
+    "building": "data_center",
+    "name": "Amazon IAD-606",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-606",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1269259655,
+  "center": {
+    "lat": 38.7403853,
+    "lon": -77.5039772
+  },
+  "tags": {
+    "addr:housenumber": "9905",
+    "addr:street": "Godwin Drive",
+    "building": "data_center",
+    "it_power": "24 MW",
+    "name": "Digital Realty IAD53",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD53",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1276518679,
+  "center": {
+    "lat": 38.9865317,
+    "lon": -77.4351775
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22760",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "60.5 MW",
+    "name": "Amazon IAD-214",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-214",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1276518684,
+  "center": {
+    "lat": 38.9884665,
+    "lon": -77.4409278
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22715",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Relocation Drive",
+    "building": "data_center",
+    "input:electricity": "126 MW",
+    "it_power": "72 MW",
+    "name": "Aligned IAD-03",
+    "operator": "Aligned",
+    "ref": "IAD-03",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1276518687,
+  "center": {
+    "lat": 38.9921869,
+    "lon": -77.4339379
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22588",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Fitness Court",
+    "building": "data_center",
+    "input:electricity": "60 MW",
+    "it_power": "20 MW",
+    "name": "Digital Realty IAD55",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD55",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340212,
+  "center": {
+    "lat": 38.9473617,
+    "lon": -77.5201949
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "42854",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Fadeley Lane",
+    "building": "data_center",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340213,
+  "center": {
+    "lat": 38.9835278,
+    "lon": -77.4175076
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22855",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Platform Plaza",
+    "building": "data_center",
+    "input:electricity": "2.5 MW",
+    "name": "Amazon IAD-608",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-608",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340214,
+  "center": {
+    "lat": 38.8028836,
+    "lon": -77.6221217
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "14495",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-195",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-195",
+    "source": "esri/USA_NAD_Addresses",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340215,
+  "center": {
+    "lat": 38.7451303,
+    "lon": -77.5331061
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9750",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "name": "STACK NVA02C",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center",
+    "tenant": "Amazon Web Services",
+    "tenant:ref": "*",
+    "tenant:short": "AWS"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340216,
+  "center": {
+    "lat": 38.8145928,
+    "lon": -77.6543195
+  },
+  "tags": {
+    "addr:city": "Haymarket",
+    "addr:housenumber": "15475",
+    "addr:postcode": "20169",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1280340217,
+  "center": {
+    "lat": 38.8169707,
+    "lon": -77.6521528
+  },
+  "tags": {
+    "addr:city": "Haymarket",
+    "addr:housenumber": "15443;15445;15447;15449",
+    "addr:postcode": "20169",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-94",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-94",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1283698132,
+  "center": {
+    "lat": 38.7755471,
+    "lon": -77.5451498
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11630;11640",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hayden Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-3",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260553,
+  "center": {
+    "lat": 38.7744375,
+    "lon": -77.5856183
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "Google Mango Farm",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260554,
+  "center": {
+    "lat": 38.8018620,
+    "lon": -77.6212120
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "14475",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-196",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-196",
+    "source": "esri/USA_NAD_Addresses",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260555,
+  "center": {
+    "lat": 38.8012504,
+    "lon": -77.6204762
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "14455",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-197",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-197",
+    "source": "esri/USA_NAD_Addresses",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260556,
+  "center": {
+    "lat": 38.7744146,
+    "lon": -77.5422300
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11600",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hayden Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-4",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-4",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260557,
+  "center": {
+    "lat": 38.7730280,
+    "lon": -77.5411854
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11580",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hayden Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-5",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-5",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260558,
+  "center": {
+    "lat": 38.7531664,
+    "lon": -77.5108824
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9450",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Godwin Drive",
+    "building": "data_center",
+    "name": "QTS Manassas DC3",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1287260559,
+  "center": {
+    "lat": 38.7589306,
+    "lon": -77.5166938
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9101",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "it_power": "36 MW",
+    "name": "STACK NVA05A",
+    "operator": "STACK Infrastructure",
+    "ref": "NVA05A",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva05/"
+  }
+},
+{
+  "type": "way",
+  "id": 1292897241,
+  "center": {
+    "lat": 39.0425196,
+    "lon": -77.5382898
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42311",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Thunderball Drive",
+    "building": "data_center",
+    "building:levels": "1",
+    "layer": "1",
+    "name": "42311 THUNDERBALL DR",
+    "operator": "True North Data Solutions",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1292897242,
+  "center": {
+    "lat": 39.0416534,
+    "lon": -77.5392120
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42255",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Thunderball Drive",
+    "building": "data_center",
+    "building:levels": "1",
+    "name": "42255 THUNDERBALL DR",
+    "operator": "True North Data Solutions",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1292897243,
+  "center": {
+    "lat": 39.0434964,
+    "lon": -77.5408399
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42254",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Thunderball Drive",
+    "building": "data_center",
+    "building:levels": "1",
+    "name": "42254 THUNDERBALL DR",
+    "operator": "True North Data Solutions",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1301654223,
+  "center": {
+    "lat": 38.9480346,
+    "lon": -77.5589842
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "24214",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Quail Ridge Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-127",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-127",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1301654224,
+  "center": {
+    "lat": 38.9500822,
+    "lon": -77.5588677
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "24234",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Quail Ridge Lane",
+    "building": "data_center",
+    "name": "Amazon IAD-126",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-126",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1304357577,
+  "center": {
+    "lat": 38.7681429,
+    "lon": -77.5386481
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "11891",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Sudley Manor Drive",
+    "building": "data_center",
+    "height": "15",
+    "name": "Iron Mountain VA-6",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-6",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1309123033,
+  "center": {
+    "lat": 39.0151965,
+    "lon": -77.4595343
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21721",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "input:electricity": "18 MW",
+    "it_power": "6 MW",
+    "name": "Equinix DC6",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC6",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc6"
+  }
+},
+{
+  "type": "way",
+  "id": 1309123034,
+  "center": {
+    "lat": 39.0164403,
+    "lon": -77.4619542
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21691",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Filigree Court",
+    "building": "data_center",
+    "input:electricity": "15 MW",
+    "it_power": "6 MW",
+    "name": "Equinix DC4",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "DC4",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc4"
+  }
+},
+{
+  "type": "way",
+  "id": 1317733642,
+  "center": {
+    "lat": 38.9608560,
+    "lon": -77.4914314
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "43704",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Efficiency Drive",
+    "building": "data_center",
+    "input:electricity": "180 MW",
+    "it_power": "80 MW",
+    "name": "Digital Realty IAD44",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD44",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad44"
+  }
+},
+{
+  "type": "way",
+  "id": 1319637945,
+  "center": {
+    "lat": 38.9492572,
+    "lon": -77.5498011
+  },
+  "tags": {
+    "addr:housenumber": "24171",
+    "addr:street": "Youngwood Lane",
+    "building": "data_center",
+    "name": "Yondr Allegro South",
+    "operator": "Yondr",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1333205263,
+  "center": {
+    "lat": 39.0660153,
+    "lon": -77.5585694
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "41679",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Inclusion Lane Southeast",
+    "building": "data_center",
+    "name": "Microsoft Leesburg Building 5",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1343764880,
+  "center": {
+    "lat": 38.9227671,
+    "lon": -77.4278721
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13640",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "EDS Drive",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-165",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-165",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1343764881,
+  "center": {
+    "lat": 38.9211238,
+    "lon": -77.4265432
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13620",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "EDS Drive",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-166",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-166",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1343764882,
+  "center": {
+    "lat": 38.9227105,
+    "lon": -77.4263036
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13630",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "EDS Drive",
+    "building": "data_center",
+    "input:electricity": "65 MW",
+    "name": "Amazon IAD-167",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-167",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1344901567,
+  "center": {
+    "lat": 39.0004483,
+    "lon": -77.4607956
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22285",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Lockridge Road",
+    "building": "data_center",
+    "name": "Amazon IAD-286",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-286",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1344901568,
+  "center": {
+    "lat": 38.9991321,
+    "lon": -77.4607873
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22275",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Lockridge Road",
+    "building": "data_center",
+    "name": "Amazon IAD-285",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-285",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1344901569,
+  "center": {
+    "lat": 39.0018258,
+    "lon": -77.4527034
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "44820",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Prentice Drive",
+    "building": "data_center",
+    "input:electricity": "90 MW",
+    "it_power": "50 MW",
+    "name": "Digital Realty IAD43",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD43",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1344901575,
+  "center": {
+    "lat": 38.9979490,
+    "lon": -77.4302306
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22435",
+    "addr:postcode": "20164",
+    "addr:state": "VA",
+    "addr:street": "Glenn Drive",
+    "building": "data_center",
+    "input:electricity": "132 MW",
+    "it_power": "96 MW",
+    "name": "Vantage VA2",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA2",
+    "telecom": "data_center",
+    "website": "https://vantage-dc.com/data-center-locations/north-america/ashburn-ii-virginia/"
+  }
+},
+{
+  "type": "way",
+  "id": 1380114462,
+  "center": {
+    "lat": 38.7372080,
+    "lon": -77.8262798
+  },
+  "tags": {
+    "building": "yes",
+    "source": "local knowledge",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1380114463,
+  "center": {
+    "lat": 38.7382145,
+    "lon": -77.8258682
+  },
+  "tags": {
+    "building": "yes",
+    "source": "local knowledge",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1381017872,
+  "center": {
+    "lat": 38.7481495,
+    "lon": -77.5378034
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9522",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "building:levels": "1",
+    "check_date": "2025-04-25",
+    "fixme": "correct data hall name?",
+    "height": "10",
+    "name": "STACK NVA02x",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1381994242,
+  "center": {
+    "lat": 39.0023088,
+    "lon": -77.4718933
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22210",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "data_center",
+    "input:electricity": "270 MW",
+    "it_power": "180 MW",
+    "name": "CloudHQ LC4",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC4",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/campus/lc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 1387391200,
+  "center": {
+    "lat": 39.0436134,
+    "lon": -77.5372623
+  },
+  "tags": {
+    "addr:housenumber": "20632",
+    "addr:street": "Sycolin Road",
+    "landuse": "industrial",
+    "name": "True North Data Centers",
+    "operator": "True North Data Solutions",
+    "source": "Loudon County WebLogis",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1387391201,
+  "center": {
+    "lat": 39.0442544,
+    "lon": -77.5379583
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42370",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Thunderball Drive",
+    "building": "data_center",
+    "building:levels": "1",
+    "name": "Compass IAD IE",
+    "operator": "Compass Datacenters",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1426663252,
+  "center": {
+    "lat": 38.9231403,
+    "lon": -77.4249774
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13610",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "EDS Drive",
+    "building": "data_center",
+    "input:electricity": "55 MW",
+    "name": "Amazon IAD-168",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-168",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1426663253,
+  "center": {
+    "lat": 38.9364643,
+    "lon": -77.4246803
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13860",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "Redskin Drive",
+    "building": "data_center",
+    "input:electricity": "96 MW",
+    "name": "Amazon IAD-500",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-500",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1443187163,
+  "center": {
+    "lat": 39.0112011,
+    "lon": -77.4603947
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44631",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Waxpool Road",
+    "building": "data_center",
+    "input:electricity": "132 MW",
+    "it_power": "80 MW",
+    "name": "CloudHQ LC3",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC3",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/campus/lc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 1443922527,
+  "center": {
+    "lat": 39.0559766,
+    "lon": -77.5473343
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "20335",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Celtic Park Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-668",
+    "operator": "Amazon Web Services",
+    "operator:wikidata": "Q95",
+    "ref": "IAD-668",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1443922528,
+  "center": {
+    "lat": 39.0577971,
+    "lon": -77.5467340
+  },
+  "tags": {
+    "addr:housenumber": "20680",
+    "addr:street": "Celtic Park Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-667",
+    "operator": "Amazon Web Services",
+    "operator:wikidata": "Q95",
+    "ref": "IAD-667",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1443922535,
+  "center": {
+    "lat": 39.0821895,
+    "lon": -77.5651208
+  },
+  "tags": {
+    "addr:housenumber": "19275",
+    "addr:street": "Compass Creek Parkway SE",
+    "building": "data_center",
+    "it_power": "48 MW",
+    "name": "STACK NVA06",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "ref": "NVA06",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva06/"
+  }
+},
+{
+  "type": "way",
+  "id": 1447029365,
+  "center": {
+    "lat": 38.7999725,
+    "lon": -77.5833420
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "13700",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "University Boulevard",
+    "building": "data_center",
+    "name": "Corscale Gainesville - Building 2",
+    "not:operator:wikidata": "Q2283",
+    "operator": "Corscale Data Centers",
+    "owner": "GCDC Purchaser Phase 2 LLC",
+    "ref": "Phase 2",
+    "source": "Prince William County GIS",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1460776170,
+  "center": {
+    "lat": 39.0552634,
+    "lon": -77.5447851
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42376",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Patriot Park Drive",
+    "building": "data_center",
+    "name": "Amazon IAD-669",
+    "operator": "Amazon Web Services",
+    "ref": "IAD-669",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1460776171,
+  "center": {
+    "lat": 39.0540969,
+    "lon": -77.5459950
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "42590",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Patriot Park Drive",
+    "building": "data_center",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1460776174,
+  "center": {
+    "lat": 39.0510366,
+    "lon": -77.5348010
+  },
+  "tags": {
+    "addr:city": "Leesburg",
+    "addr:housenumber": "20480",
+    "addr:postcode": "20175",
+    "addr:state": "VA",
+    "addr:street": "Goose Landing Lane",
+    "building": "data_center",
+    "name": "Google Leesburg Building 3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1464257783,
+  "center": {
+    "lat": 38.7793049,
+    "lon": -77.5863352
+  },
+  "tags": {
+    "addr:city": "Bristow",
+    "addr:housenumber": "13040",
+    "addr:postcode": "20136",
+    "addr:state": "VA",
+    "addr:street": "Rollins Ford Road",
+    "building": "data_center",
+    "name": "Google Mango Farm Building 3",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1464257784,
+  "center": {
+    "lat": 38.7525454,
+    "lon": -77.5124598
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9420",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Godwin Drive",
+    "building": "data_center",
+    "name": "QTS Manassas DC2",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1482076328,
+  "center": {
+    "lat": 38.7771313,
+    "lon": -77.5561679
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "Amazon IAD-193",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1482076330,
+  "center": {
+    "lat": 38.9894610,
+    "lon": -77.4497423
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22665",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Dulles Summit Court",
+    "building": "data_center",
+    "input:electricity": "71.5 MW",
+    "it_power": "30 MW",
+    "name": "Amazon IAD-230",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "Amazon IAD230",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1489625232,
+  "center": {
+    "lat": 39.0007125,
+    "lon": -77.4366571
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45210",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Vantage Data Plaza",
+    "building": "data_center",
+    "name": "Vantage VA15",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA15",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1509985717,
+  "center": {
+    "lat": 38.7613800,
+    "lon": -77.5392522
+  },
+  "tags": {
+    "building": "construction",
+    "height": "15",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517637,
+  "center": {
+    "lat": 38.7751744,
+    "lon": -77.5399654
+  },
+  "tags": {
+    "addr:housenumber": "8328",
+    "addr:street": "Bethlehem Road",
+    "building": "data_center",
+    "name": "Iron Mountain VA-7",
+    "operator": "Iron Mountain",
+    "operator:wikidata": "Q1673079",
+    "ref": "VA-7",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517638,
+  "center": {
+    "lat": 38.7893760,
+    "lon": -77.5819732
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "AWS IAD110",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517639,
+  "center": {
+    "lat": 38.7894558,
+    "lon": -77.5796864
+  },
+  "tags": {
+    "building": "construction",
+    "name": "AWS IAD111",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517640,
+  "center": {
+    "lat": 38.7466335,
+    "lon": -77.4972555
+  },
+  "tags": {
+    "building": "construction",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517641,
+  "center": {
+    "lat": 38.7476409,
+    "lon": -77.4947856
+  },
+  "tags": {
+    "building": "construction",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1510517642,
+  "center": {
+    "lat": 38.7495466,
+    "lon": -77.4930098
+  },
+  "tags": {
+    "building": "construction",
+    "name": "AWS",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1518717349,
+  "center": {
+    "lat": 39.0062702,
+    "lon": -77.4683054
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housename": "Bldg M",
+    "addr:housenumber": "44372",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Round Table Plaza",
+    "building": "data_center",
+    "input:electricity": "63 MW",
+    "it_power": "24 MW",
+    "name": "Digital Realty IAD40",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD40",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/iad40"
+  }
+},
+{
+  "type": "way",
+  "id": 1518761569,
+  "center": {
+    "lat": 39.0028892,
+    "lon": -77.4393845
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45130",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Vantage Data Plaza",
+    "building": "data_center",
+    "input:electricity": "91 MW",
+    "name": "Vantage VA14",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA14",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1521913707,
+  "center": {
+    "lat": 38.9372482,
+    "lon": -77.4258694
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:housenumber": "13876",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "Redskin Drive",
+    "building": "data_center",
+    "input:electricity": "96 MW",
+    "name": "Amazon IAD-501",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-501",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1522636324,
+  "center": {
+    "lat": 39.0133911,
+    "lon": -77.4537722
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22165",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "data_center",
+    "input:electricity": "16 MW",
+    "name": "Equinix DC22",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC22",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc22"
+  }
+},
+{
+  "type": "way",
+  "id": 1534356804,
+  "center": {
+    "lat": 39.0052424,
+    "lon": -77.4464282
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22190",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Power Player Lane",
+    "alt_name": "Amazon IAD-290",
+    "building": "construction",
+    "construction": "data_center",
+    "name": "PowerHouse Pacific Building 1",
+    "operator": "PowerHouse Data Centers",
+    "ref": "IAD-290",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1534356805,
+  "center": {
+    "lat": 39.0034856,
+    "lon": -77.4485787
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22279",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Power Player Lane",
+    "alt_name": "Amazon IAD-292",
+    "building": "construction",
+    "construction": "data_center",
+    "name": "PowerHouse Pacific Building 2",
+    "note": "location is approximate",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1536981894,
+  "center": {
+    "lat": 38.7419821,
+    "lon": -77.1861732
+  },
+  "tags": {
+    "addr:city": "Springfield",
+    "addr:housenumber": "7951;7961",
+    "addr:postcode": "22150",
+    "addr:state": "VA",
+    "addr:street": "Loisdale Road",
+    "building": "data_center",
+    "name": "Amazon DCA-64",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "DCA-64",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1543296494,
+  "center": {
+    "lat": 38.9626307,
+    "lon": -77.4900243
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "43714",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Efficiency Drive",
+    "building": "data_center",
+    "input:electricity": "180 MW",
+    "name": "Digital Realty IAD45",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD45",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1543931282,
+  "center": {
+    "lat": 39.0215698,
+    "lon": -77.4592649
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44490",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Chilum Place",
+    "building": "data_center",
+    "input:electricity": "25 MW",
+    "it_power": "10 MW",
+    "name": "Digital Realty ACC2",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "owner": "Digital Realty",
+    "ref": "ACC2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1543931283,
+  "center": {
+    "lat": 39.0248907,
+    "lon": -77.4534187
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44710",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Performance Circle",
+    "building": "data_center",
+    "building:levels": "4",
+    "input:electricity": "32 MW",
+    "name": "Equinix DC17",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "DC17",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544103415,
+  "center": {
+    "lat": 38.9573857,
+    "lon": -77.5357398
+  },
+  "tags": {
+    "addr:housenumber": "23896",
+    "addr:street": "Belmont Ridge Road",
+    "building": "data_center",
+    "name": "BlackChamber Tech Park at Brambleton",
+    "operator": "BlackChamber Group",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544103416,
+  "center": {
+    "lat": 38.9566351,
+    "lon": -77.5331919
+  },
+  "tags": {
+    "addr:housenumber": "23896",
+    "addr:street": "Belmont Ridge Road",
+    "building": "data_center",
+    "name": "Tech Park at Brambleton",
+    "operator": "BlackChamber Group",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544104138,
+  "center": {
+    "lat": 38.9588464,
+    "lon": -77.5026145
+  },
+  "tags": {
+    "addr:housenumber": "43304",
+    "addr:street": "Old Ox Road",
+    "building": "data_center",
+    "input:electricity": "31 MW",
+    "name": "CyrusOne NVA9",
+    "operator": "CyrusOne",
+    "operator:wikidata": "Q16953751",
+    "ref": "NVA9",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544360246,
+  "center": {
+    "lat": 38.9959832,
+    "lon": -77.4597423
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "44595",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Low Latency Lane",
+    "building": "data_center",
+    "name": "Sentinel Ashburn - Building 1",
+    "operator": "Sentinel Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544360247,
+  "center": {
+    "lat": 38.9950727,
+    "lon": -77.4459839
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22425",
+    "addr:street": "Sous Vide Lane",
+    "building": "data_center",
+    "it_power": "42 MW",
+    "name": "EdgeCore AS02",
+    "operator": "EdgeCore",
+    "ref": "AS02",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center",
+    "website": "https://edgecore.com/locations/ashburn-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544360248,
+  "center": {
+    "lat": 38.9993359,
+    "lon": -77.4418377
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22321",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Pacific Boulevard",
+    "building": "data_center",
+    "input:electricity": "60.5 MW",
+    "name": "Vantage VA16",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA16",
+    "source": "Piedmont Environmental Council, Virginia Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544360249,
+  "center": {
+    "lat": 38.9981380,
+    "lon": -77.4489928
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22280",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Randolph Drive",
+    "building": "data_center",
+    "input:electricity": "43 MW",
+    "it_power": "22.5 MW",
+    "name": "QTS Ashburn 1 DC2",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "ref": "DC2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1544360250,
+  "center": {
+    "lat": 39.0035927,
+    "lon": -77.4467729
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "22214",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Power Player Lane",
+    "alt_name": "Amazon IAD-291",
+    "building": "construction",
+    "construction": "data_center",
+    "name": "PowerHouse Pacific Building 3",
+    "note": "location is approximate",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1555352690,
+  "center": {
+    "lat": 39.0217895,
+    "lon": -77.4147034
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45865",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Maries Road",
+    "building": "data_center",
+    "input:electricity": "126 MW",
+    "it_power": "72 MW",
+    "name": "EdgeCore AS01",
+    "operator": "EdgeCore",
+    "ref": "AS01",
+    "telecom": "data_center",
+    "website": "https://edgecore.com/locations/ashburn-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 1555352691,
+  "center": {
+    "lat": 39.0229636,
+    "lon": -77.4167126
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "45781",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Maries Road",
+    "building": "data_center",
+    "input:electricity": "55 MW",
+    "name": "Amazon IAD-128",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-128",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1556781864,
+  "center": {
+    "lat": 39.0158263,
+    "lon": -77.4719884
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44371",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gigabit Plaza",
+    "building": "data_center",
+    "input:electricity": "78 MW",
+    "it_power": "36 MW",
+    "name": "NTT VA7",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA7",
+    "telecom": "data_center",
+    "website": "https://www.nttdata.com/en-us/services/global-data-centers/global-locations/americas/northern-virginia-data-centers/ashburn-va7-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560626428,
+  "center": {
+    "lat": 39.0775071,
+    "lon": -77.5052057
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "43321",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Data Drive",
+    "building": "data_center",
+    "name": "Vantage VA3",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "ref": "VA3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560627883,
+  "center": {
+    "lat": 38.9811304,
+    "lon": -77.4942439
+  },
+  "tags": {
+    "addr:housenumber": "43975",
+    "addr:street": "Light Speed Plaza",
+    "building": "data_center",
+    "name": "Amazon IAD-180",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-180",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560641652,
+  "center": {
+    "lat": 38.9497902,
+    "lon": -77.5543019
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "42031",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Growth Mindset Lane",
+    "building": "data_center",
+    "name": "Microsoft IAD11",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560641653,
+  "center": {
+    "lat": 38.9510645,
+    "lon": -77.5555499
+  },
+  "tags": {
+    "addr:city": "Aldie",
+    "addr:housenumber": "42010",
+    "addr:postcode": "20105",
+    "addr:state": "VA",
+    "addr:street": "Growth Mindset Lane",
+    "building": "data_center",
+    "name": "Microsoft IAD11",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560817803,
+  "center": {
+    "lat": 39.0137942,
+    "lon": -77.4769259
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21735",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Red Rum Drive",
+    "building": "data_center",
+    "it_power": "54 MW",
+    "name": "Sabey Ashburn Building A",
+    "operator": "Sabey Data Centers",
+    "operator:wikidata": "Q104864464",
+    "telecom": "data_center",
+    "website": "https://sabeydatacenters.com/locations/ashburn-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560822516,
+  "center": {
+    "lat": 39.0098775,
+    "lon": -77.4770210
+  },
+  "tags": {
+    "building": "construction",
+    "construction": "data_center",
+    "name": "CloudHQ LC5",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC5",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560822517,
+  "center": {
+    "lat": 39.0066448,
+    "lon": -77.4776407
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22235",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "construction",
+    "construction": "data_center",
+    "it_power": "108 MW",
+    "name": "CloudHQ LC11",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC11",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560822518,
+  "center": {
+    "lat": 39.0060646,
+    "lon": -77.4753841
+  },
+  "tags": {
+    "building": "construction",
+    "construction": "data_center",
+    "it_power": "108 MW",
+    "name": "CloudHQ LC14",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC14",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560822519,
+  "center": {
+    "lat": 39.0054086,
+    "lon": -77.4784366
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22225",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "construction",
+    "construction": "data_center",
+    "it_power": "108 MW",
+    "name": "CloudHQ LC12",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC12",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1560822523,
+  "center": {
+    "lat": 39.0019963,
+    "lon": -77.4684390
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "22190",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Loudoun County Parkway",
+    "building": "construction",
+    "construction": "data_center",
+    "it_power": "108 MW",
+    "name": "CloudHQ LC8",
+    "operator": "CloudHQ",
+    "operator:wikidata": "Q136332516",
+    "ref": "LC8",
+    "telecom": "data_center",
+    "website": "https://cloudhq.com/campus/lc-campus/"
+  }
+},
+{
+  "type": "way",
+  "id": 1560827027,
+  "center": {
+    "lat": 39.0196443,
+    "lon": -77.4581097
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "21673",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Beaumeade Circle",
+    "building": "construction",
+    "construction": "data_center",
+    "input:electricity": "51 MW",
+    "name": "Cologix ASH2",
+    "operator": "Cologix",
+    "operator:wikidata": "Q18348355",
+    "ref": "ASH2",
+    "telecom": "data_center",
+    "website": "https://cologix.com/data-centers/ashburn/ash2"
+  }
+},
+{
+  "type": "way",
+  "id": 1560827941,
+  "center": {
+    "lat": 39.0187472,
+    "lon": -77.4755556
+  },
+  "tags": {
+    "addr:city": "Ashburn",
+    "addr:housenumber": "44725",
+    "addr:postcode": "20147",
+    "addr:state": "VA",
+    "addr:street": "Gigabit Plaza",
+    "building": "construction",
+    "construction": "data_center",
+    "name": "NTT VA8",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA8",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1561752472,
+  "center": {
+    "lat": 38.7344794,
+    "lon": -77.1528961
+  },
+  "tags": {
+    "building": "data_center",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1561752473,
+  "center": {
+    "lat": 38.7351981,
+    "lon": -77.1528853
+  },
+  "tags": {
+    "building": "data_center",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1561752474,
+  "center": {
+    "lat": 38.7995018,
+    "lon": -77.5809455
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "13720",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "University Boulevard",
+    "building": "data_center",
+    "construction": "data_center",
+    "name": "Corscale Gainesville - Building 3",
+    "not:operator:wikidata": "Q2283",
+    "operator": "Corscale Data Centers",
+    "owner": "GCDC Purchaser Phase 3 LLC",
+    "ref": "Phase 3",
+    "source": "Prince William County GIS",
+    "source:tenant": "Prince William County permits",
+    "telecom": "data_center",
+    "tenant": "Microsoft"
+  }
+},
+{
+  "type": "way",
+  "id": 1561771299,
+  "center": {
+    "lat": 38.8000940,
+    "lon": -77.6102003
+  },
+  "tags": {
+    "building": "data_center",
+    "name": "NTT VA10",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "VA10",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1561771300,
+  "center": {
+    "lat": 38.7372648,
+    "lon": -77.5078242
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10051",
+    "addr:street": "Brickyard Way",
+    "building": "data_center",
+    "it_power": "81 MW",
+    "name": "Digital Realty IAD51",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD51",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1561790221,
+  "center": {
+    "lat": 38.7632492,
+    "lon": -77.5392727
+  },
+  "tags": {
+    "building": "construction",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1566629297,
+  "center": {
+    "lat": 39.0801856,
+    "lon": -77.5649427
+  },
+  "tags": {
+    "building": "data_center",
+    "it_power": "24 MW",
+    "name": "STACK NVA06",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "ref": "NVA06",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva06/"
+  }
+},
+{
+  "type": "way",
+  "id": 1567475191,
+  "center": {
+    "lat": 38.7999149,
+    "lon": -77.6200436
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "14425",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "John Marshall Highway",
+    "building": "data_center",
+    "name": "Amazon IAD-198",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "ref": "IAD-198",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1568279137,
+  "center": {
+    "lat": 38.9950971,
+    "lon": -77.4619617
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "44525",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Low Latency Lane",
+    "building": "data_center",
+    "name": "Sentinel Ashburn - Building 2",
+    "operator": "Sentinel Data Centers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1568581817,
+  "center": {
+    "lat": 38.9206107,
+    "lon": -77.4837387
+  },
+  "tags": {
+    "building": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1568581818,
+  "center": {
+    "lat": 38.9219162,
+    "lon": -77.4836647
+  },
+  "tags": {
+    "building": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1568615857,
+  "center": {
+    "lat": 38.7379978,
+    "lon": -77.5085914
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "10050",
+    "addr:street": "Brickyard Way",
+    "building": "data_center",
+    "it_power": "50 MW",
+    "name": "Digital Realty IAD50",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "IAD50",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1568619392,
+  "center": {
+    "lat": 38.9482752,
+    "lon": -77.3276787
+  },
+  "tags": {
+    "barrier": "wall",
+    "it_power": "13 MW",
+    "name": "Digital Realty VA3",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "VA3",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/northern-virginia/va3"
+  }
+},
+{
+  "type": "way",
+  "id": 1573400212,
+  "center": {
+    "lat": 38.7605640,
+    "lon": -77.5118545
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "8911",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "name": "STACK NVA05C",
+    "operator": "STACK Infrastructure",
+    "ref": "NVA05C",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva05/"
+  }
+},
+{
+  "type": "way",
+  "id": 1573400213,
+  "center": {
+    "lat": 38.7610923,
+    "lon": -77.5143493
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9001",
+    "addr:postcode": "20110",
+    "addr:state": "VA",
+    "addr:street": "Freedom Center Boulevard",
+    "building": "data_center",
+    "it_power": "48 MW",
+    "name": "STACK NVA05B",
+    "operator": "STACK Infrastructure",
+    "ref": "NVA05B",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/northern-virginia/nva05/"
+  }
+},
+{
+  "type": "way",
+  "id": 1575873853,
+  "center": {
+    "lat": 38.9353970,
+    "lon": -77.4267041
+  },
+  "tags": {
+    "addr:city": "Herndon",
+    "addr:postcode": "20171",
+    "addr:state": "VA",
+    "addr:street": "Redskin Drive",
+    "building": "construction",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1579810672,
+  "center": {
+    "lat": 38.7454801,
+    "lon": -77.5382902
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9570",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "building:levels": "2",
+    "height": "12",
+    "name": "STACK NVA02E",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1579810673,
+  "center": {
+    "lat": 38.7435516,
+    "lon": -77.5380803
+  },
+  "tags": {
+    "addr:city": "Manassas",
+    "addr:housenumber": "9640",
+    "addr:postcode": "20109",
+    "addr:state": "VA",
+    "addr:street": "Hornbaker Road",
+    "building": "data_center",
+    "fixme": "correct data hall name?",
+    "name": "STACK NVA02x",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "source": "https://gisweb.pwcva.gov/webapps/countymapper/",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1581994484,
+  "center": {
+    "lat": 38.9581508,
+    "lon": -77.4900832
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "43705",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Efficiency Drive",
+    "building": "data_center",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1581994485,
+  "center": {
+    "lat": 38.9599883,
+    "lon": -77.4886501
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "43715",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Efficiency Drive",
+    "building": "data_center",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1582432353,
+  "center": {
+    "lat": 38.9416296,
+    "lon": -77.5319045
+  },
+  "tags": {
+    "addr:city": "Sterling",
+    "addr:housenumber": "24555",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Howling Rooster Lane",
+    "building": "data_center",
+    "input:electricity": "93 MW",
+    "name": "Google Arcola Building 3",
+    "operator": "Google",
+    "operator:wikidata": "Q95",
+    "ref": "ARA3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "relation",
+  "id": 12893102,
+  "center": {
+    "lat": 38.9977791,
+    "lon": -77.4438607
+  },
+  "tags": {
+    "addr:city": "Dulles",
+    "addr:housenumber": "22340",
+    "addr:postcode": "20166",
+    "addr:state": "VA",
+    "addr:street": "Dresden Street",
+    "building": "data_center",
+    "input:electricity": "8 MW",
+    "name": "VeriSign Incorporated",
+    "telecom": "data_center",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19787207,
+  "center": {
+    "lat": 38.8023704,
+    "lon": -77.5823062
+  },
+  "tags": {
+    "addr:city": "Gainesville",
+    "addr:housenumber": "13780",
+    "addr:postcode": "20155",
+    "addr:state": "VA",
+    "addr:street": "University Boulevard",
+    "building": "data_center",
+    "name": "Corscale Gainesville - Building 1",
+    "operator": "Corscale Data Centers",
+    "owner": "GCDC Purchaser Phase 1 LLC",
+    "ref": "Phase 1",
+    "source": "Prince William County GIS",
+    "source:tenant": "Prince William County permits",
+    "telecom": "data_center",
+    "tenant": "Microsoft",
+    "tenant:ref": "MNZ27",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20381848,
+  "center": {
+    "lat": 39.0528445,
+    "lon": -76.9259229
+  },
+  "tags": {
+    "addr:city": "Beltsville",
+    "addr:housenumber": "11700",
+    "addr:postcode": "20705",
+    "addr:state": "MD",
+    "addr:street": "Montgomery Road",
+    "building": "yes",
+    "height": "17.47",
+    "roof:shape": "flat",
+    "source": "M-NCPPC",
+    "telecom": "data_center",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
