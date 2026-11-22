@@ -5,12 +5,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import pandas as pd  # noqa: E402
 
-from pdn import eia930, features, model, plots  # noqa: E402
+from pdn import eia930, features, model, plots, subregion  # noqa: E402
 from pdn.config import PROCESSED, ROOT  # noqa: E402
 
 if __name__ == "__main__":
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    hourly = eia930.load()
+    hourly = pd.concat([eia930.load(), subregion.load()], ignore_index=True)
     wx = pd.read_parquet(ROOT / "data/raw/weather_hourly.parquet")
     panel = features.build_panel(hourly, wx)
     # Weather data lags real time by a few days; drop days without it.

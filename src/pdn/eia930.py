@@ -36,7 +36,8 @@ def download(last_year: int, force: bool = False) -> list:
     saved = []
     for y, h in _periods(last_year):
         out = RAW / f"eia930_{y}_{h}.parquet"
-        if out.exists() and not force:
+        # The current year's files keep growing; always refresh them.
+        if out.exists() and not force and y < last_year:
             saved.append(out)
             continue
         url = BASE.format(y=y, h=h)

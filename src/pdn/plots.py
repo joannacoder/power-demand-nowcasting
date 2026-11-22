@@ -95,3 +95,39 @@ def latest_bar(levels: pd.DataFrame, fname: str, months: int = 12):
     fig.savefig(FIGURES / fname, facecolor=SURFACE)
     plt.close(fig)
     return g
+
+
+def coef_chart(res: pd.DataFrame, fname: str):
+    """Point estimate and 95% CI per (window, signal): CAR in bp per 1 SD of signal."""
+    win = {"car_pre": "Pre-earnings\n(signal date to day -2)",
+           "car_ann": "Announcement\n(days -1 to +1)",
+           "car_post": "Post-earnings\n(days +2 to +40)"}
+    sig = {"accel": ("Growth acceleration", SERIES[0]),
+           "growth": ("Weather-normalized growth", SERIES[1]),
+           "raw": ("Raw growth (with weather)", SERIES[2])}
+    fig, ax = _fig(9, 4.6)
+    ys = list(win)
+    for j, (k, (lab, col)) in enumerate(sig.items()):
+        d = res[res["signal"] == k].set_index("y").reindex(ys)
+        y = [i + (j - 1) * 0.22 for i in range(len(ys))]
+        ax.errorbar(d["coef_bp_per_sd"], y,
+                    xerr=[d["coef_bp_per_sd"] - d["ci95_lo_bp"], d["ci95_hi_bp"] - d["coef_bp_per_sd"]],
+                    fmt="o", color=col, ms=6, capsize=3, lw=1.5, label=lab)
+    ax.axvline(0, color=INK2, lw=0.8)
+    ax.set_yticks(range(len(ys)))
+    ax.set_yticklabels([win[k] for k in ys], fontsize=9, color=INK2)
+    ax.invert_yaxis()
+    ax.grid(axis="y", visible=False)
+    ax.grid(axis="x", color=GRID, linewidth=0.8)
+    ax.set_xlabel("Abnormal return per 1 SD of signal (bp), 95% CI", color=INK2, fontsize=9)
+    ax.set_title("Grid-demand signals vs utility stock returns around earnings", loc="left",
+                 color=INK, fontsize=12)
+    ax.legend(frameon=False, fontsize=8, labelcolor=INK2, loc="lower left",
+              bbox_to_anchor=(0, 1.0), ncol=3, borderaxespad=0.2)
+    ax.set_title("Grid-demand signals vs utility stock returns around earnings", loc="left",
+                 color=INK, fontsize=12, pad=26)
+    fig.text(0.01, 0.01, "28 utilities, 2022Q1 to 2026Q3, returns vs XLU, quarter fixed effects, "
+             "SEs clustered by quarter", fontsize=7, color=INK2)
+    fig.tight_layout(rect=(0, 0.03, 1, 1))
+    fig.savefig(FIGURES / fname, facecolor=SURFACE)
+    plt.close(fig)

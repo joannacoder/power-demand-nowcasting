@@ -50,7 +50,18 @@ BA_WEATHER = {
              ("Knoxville", 35.96, -83.92, 0.2)],
 }
 
-BAS = list(BA_WEATHER)
+# PJM transmission zones published in the EIA-930 SUBREGION files.
+# Dominion (DOM) covers Northern Virginia, the largest US data-center market.
+# Weights are rough load shares (a documented assumption).
+ZONE_WEATHER = {
+    "DOM": [("Dulles/Ashburn", 38.95, -77.45, 0.45), ("Richmond", 37.54, -77.44, 0.30),
+            ("Norfolk", 36.85, -76.29, 0.25)],
+}
+ZONE_PARENT = {"DOM": "PJM"}
+
+BAS = list(BA_WEATHER)          # balancing authorities (EIA-930 BALANCE files)
+ZONES = list(ZONE_WEATHER)      # subregions (EIA-930 SUBREGION files)
+ALL_WEATHER = {**BA_WEATHER, **ZONE_WEATHER}
 
 # Local time zone per BA, used to build local calendar days.
 BA_TZ = {
@@ -62,6 +73,7 @@ BA_TZ = {
     "NEVP": "America/Los_Angeles", "PNM": "America/Denver", "IPCO": "America/Boise",
     "PGE": "America/Los_Angeles", "LGEE": "America/New_York", "SCEG": "America/New_York",
     "TVA": "America/Chicago",
+    "DOM": "America/New_York",
 }
 
 BA_NAME = {
@@ -73,4 +85,5 @@ BA_NAME = {
     "NEVP": "NV Energy", "PNM": "PNM (New Mexico)", "IPCO": "Idaho Power",
     "PGE": "Portland General", "LGEE": "LG&E and KU", "SCEG": "Dominion SC",
     "TVA": "Tennessee Valley Authority",
+    "DOM": "Dominion zone, PJM (N. Virginia)",
 }

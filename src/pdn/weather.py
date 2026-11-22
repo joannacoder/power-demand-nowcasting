@@ -6,7 +6,7 @@ import time
 import pandas as pd
 import requests
 
-from .config import BA_WEATHER, FIRST_YEAR, RAW
+from .config import ALL_WEATHER, FIRST_YEAR, RAW
 
 URL = "https://archive-api.open-meteo.com/v1/archive"
 
@@ -31,12 +31,16 @@ def _fetch_chunk(lat: float, lon: float, start: str, end: str) -> pd.Series:
 def _fetch_point(lat: float, lon: float, start: str, end: str) -> pd.Series:
     """Fetch one point year by year, caching each point on disk."""
     cache = RAW / "weather_points" / f"{lat:.2f}_{lon:.2f}.parquet"
+    old = None
     if cache.exists():
-        s = pd.read_parquet(cache)["temp_f"]
-        if str(s.index.max().date()) >= end:
-            return s
+        old = pd.read_parquet(cache)["temp_f"]
+        if str(old.index.max().date()) >= end:
+            return old
+        # Incremental: refetch only the last few days of the cache onward
+        # (recent ERA5 values are provisional and can change).
+        start = str((old.index.max() - pd.Timedelta(days=7)).date())
     cache.parent.mkdir(parents=True, exist_ok=True)
-    parts = []
+    parts = [] if old is None else [old]
     y0, y1 = int(start[:4]), int(end[:4])
     for y in range(y0, y1 + 1):
         a = start if y == y0 else f"{y}-01-01"
@@ -44,7 +48,7 @@ def _fetch_point(lat: float, lon: float, start: str, end: str) -> pd.Series:
         parts.append(_fetch_chunk(lat, lon, a, b))
         time.sleep(0.5)
     s = pd.concat(parts)
-    s = s[~s.index.duplicated()]
+    s = s[~s.index.duplicated(keep="last")].sort_index()
     s.to_frame("temp_f").to_parquet(cache)
     return s
 
@@ -57,7 +61,7 @@ def download(end: str, force: bool = False) -> pd.DataFrame:
     start = f"{FIRST_YEAR - 1}-12-25"
     frames = []
     cache = {}
-    for ba, pts in BA_WEATHER.items():
+    for ba, pts in ALL_WEATHER.items():
         tot = sum(w for *_, w in pts)
         s = None
         for city, lat, lon, w in pts:

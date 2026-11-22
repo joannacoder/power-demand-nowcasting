@@ -1,0 +1,7 @@
+y,signal,n,quarters,coef_bp_per_sd,ci95_lo_bp,ci95_hi_bp,t,p,variant
+car_pre,accel,503,18,-0.1713,-40.0555,39.7129,-0.0084,0.9933,winsorized 1%
+car_ann,accel,503,18,-3.6261,-30.2970,23.0448,-0.2665,0.7899,winsorized 1%
+car_post,accel,475,17,-36.8971,-72.8314,-0.9629,-2.0125,0.0442,winsorized 1%
+car_pre,accel,475,17,13.9772,-12.7397,40.6940,1.0254,0.3052,excl. 2024Q4
+car_ann,accel,475,17,-9.0975,-35.2969,17.1019,-0.6806,0.4961,excl. 2024Q4
+car_post,accel,447,16,-45.1799,-87.2402,-3.1197,-2.1053,0.0353,excl. 2024Q4
