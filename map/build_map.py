@@ -199,13 +199,17 @@ def load_datacenters() -> list[dict]:
     if not OSM_DC_FILE.exists():
         return []
     els = json.loads(OSM_DC_FILE.read_text()).get("elements", [])
-    out = []
+    out, seen = [], set()
     for e in els:
         lat = e.get("lat") or e.get("center", {}).get("lat")
         lon = e.get("lon") or e.get("center", {}).get("lon")
         if lat is None:
             continue
         t = e.get("tags", {})
+        key = (t.get("name"), round(lat, 3), round(lon, 3))  # site + building duplicates
+        if t.get("name") and key in seen:
+            continue
+        seen.add(key)
         out.append(dict(lat=lat, lon=lon, name=t.get("name", "Unnamed data center"),
                         operator=t.get("operator", "n/a"),
                         osm=f"https://www.openstreetmap.org/{e['type']}/{e['id']}"))
@@ -304,8 +308,8 @@ def build(offline: bool = False) -> Path:
     # Data centers
     fg_dc = folium.FeatureGroup(name="Data centers (OpenStreetMap)")
     for dc in dcs:
-        folium.RegularPolygonMarker(
-            [dc["lat"], dc["lon"]], number_of_sides=4, radius=5, rotation=45,
+        folium.CircleMarker(
+            [dc["lat"], dc["lon"]], radius=3.5,
             color="#0b7285", fill=True, fill_color="#22b8cf", fill_opacity=0.9, weight=1,
             tooltip=f"{dc['name']} · {dc['operator']}",
             popup=popup_table(dc["name"], [("Operator", dc["operator"]),
@@ -336,7 +340,7 @@ def build(offline: bool = False) -> Path:
         f"<div><span style='display:inline-block;width:18px;height:{max(2, int(v[1]))}px;"
         f"background:{v[0]};margin-right:6px;vertical-align:middle'></span>{v[2]}</div>"
         for k, v in sorted(VOLT_STYLE.items(), key=lambda kv: -kv[1][1]))
-    dc_note = (f"{len(dcs)} data centers from OpenStreetMap (incomplete coverage)." if dcs else
+    dc_note = (f"<b>{len(dcs)}</b> data center buildings/sites from OpenStreetMap (coverage incomplete)." if dcs else
                "<b>Data center layer pending:</b> source not loaded yet.")
     panel = f"""
     <div style="position:fixed;top:12px;left:56px;z-index:9999;max-width:330px;
@@ -351,7 +355,7 @@ def build(offline: bool = False) -> Path:
       <details style="margin-top:6px"><summary style="cursor:pointer">Legend</summary>
         <div style="margin-top:4px">{fuel_rows}</div>
         <div style="margin-top:6px">{volt_rows}</div>
-        <div style="margin-top:6px">○ substation (inferred) · ◆ data center</div>
+        <div style="margin-top:6px">○ substation (inferred) · <span style='color:#22b8cf'>●</span> data center</div>
         <div style="color:#495057">Circle area ∝ nameplate MW</div>
       </details>
       <details style="margin-top:4px"><summary style="cursor:pointer">Sources and caveats</summary>
