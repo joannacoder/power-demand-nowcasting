@@ -216,6 +216,136 @@ def load_datacenters() -> list[dict]:
     return out
 
 
+
+# ----------------------------------------------------------- nowcast link
+DOM_MONTHLY = ROOT / "map" / "dom_monthly.csv"
+DOM_DAILY = ROOT / "map" / "dom_daily.csv"
+NON_DISPATCHABLE = ("Solar", "Wind", "Batter")
+
+
+def zone_capacity() -> dict:
+    """Approximate Dominion-zone capacity: Virginia plants minus AEP/Appalachian Power.
+
+    Approximation: merchant plants in AEP's SW Virginia territory are still
+    counted, and Dominion's small NE North Carolina fleet is left out.
+    """
+    d = pd.read_excel(EIA860M_FILE, "Operating", header=2)
+    d = d[(d["Plant State"] == "VA")
+          & ~d["Entity Name"].str.contains("Appalachian Power|AEP", na=False)]
+    cap = pd.to_numeric(d["Net Summer Capacity (MW)"], errors="coerce").fillna(0)
+    nd = d["Technology"].str.contains("|".join(NON_DISPATCHABLE), na=False)
+    return dict(total=cap.sum(), dispatchable=cap[~nd].sum(), variable=cap[nd].sum())
+
+
+def growth_color(g: float) -> str:
+    """Diverging blue (below last year) - gray - red (above), clipped at +/-12%."""
+    if g != g:
+        return "#f0efec"
+    t = max(-1.0, min(1.0, g / 0.12))
+    lo, mid, hi = (42, 120, 214), (240, 239, 236), (214, 59, 59)
+    a, b = (mid, hi) if t >= 0 else (mid, lo)
+    t = abs(t)
+    return "#%02x%02x%02x" % tuple(round(a[i] + (b[i] - a[i]) * t) for i in range(3))
+
+
+def growth_svg(mon: pd.DataFrame) -> str:
+    """Bar chart of monthly weather-normalized YoY growth, hover shows values."""
+    mon = mon.dropna(subset=["wn_yoy"]).tail(36)
+    W, H, pad = 300, 110, 18
+    vmax = max(0.05, mon["wn_yoy"].abs().max())
+    neg = (mon["wn_yoy"] < 0).any()
+    span = (H / 2 - pad) if neg else (H - 2 * pad)
+    y0 = H / 2 if neg else H - pad
+    bw = (W - 2) / len(mon)
+    bars = []
+    for i, r in enumerate(mon.itertuples()):
+        h = abs(r.wn_yoy) / vmax * span
+        y = y0 - h if r.wn_yoy >= 0 else y0
+        bars.append(
+            f"<rect x='{1 + i * bw + 1:.1f}' y='{y:.1f}' width='{max(1, bw - 2):.1f}' "
+            f"height='{max(h, 0.5):.1f}' rx='1.5' fill='{growth_color(r.wn_yoy)}'>"
+            f"<title>{r.month}: {r.wn_yoy:+.1%} weather-normalized, {r.raw_yoy:+.1%} raw, "
+            f"peak {r.peak_mw:,.0f} MW</title></rect>")
+    first, last = mon["month"].iloc[0], mon["month"].iloc[-1]
+    return (f"<svg viewBox='0 0 {W} {H}' width='100%' role='img' "
+            f"aria-label='Monthly weather-normalized demand growth, Dominion zone'>"
+            f"<line x1='0' x2='{W}' y1='{y0}' y2='{y0}' stroke='#c3c2b7' stroke-width='1'/>"
+            + "".join(bars)
+            + f"<text x='0' y='{H - 2}' font-size='9' fill='#52514e'>{first}</text>"
+            f"<text x='{W}' y='{H - 2}' font-size='9' fill='#52514e' text-anchor='end'>{last}</text>"
+            f"<text x='0' y='9' font-size='9' fill='#52514e'>+{vmax:.0%}</text></svg>")
+
+
+def nowcast_section(m: folium.Map) -> str:
+    if not DOM_MONTHLY.exists():
+        return ""
+    mon = pd.read_csv(DOM_MONTHLY)
+    cap = zone_capacity()
+    ok = mon.dropna(subset=["wn_yoy"])
+    last = ok.iloc[-1]
+    yr = ok[ok["month"].str[:4] == ok["month"].iloc[-1][:4]]
+    peak_yr = yr["peak_mw"].max()
+    gap = peak_yr - cap["dispatchable"]
+    surprise = ""
+    if DOM_DAILY.exists():
+        dd = pd.read_csv(DOM_DAILY).tail(30)
+        surprise = (f"<div>Last 30 days vs nowcast: <b>{dd['surprise_pct'].mean():+.1f}%</b> "
+                    f"(through {dd['date'].iloc[-1]})</div>")
+
+    # Zone shading over the study box, recolored by the month slider.
+    s_, w_, n_, e_ = BBOX
+    rect = folium.Rectangle([[s_, w_], [n_, e_]], color="#868e96", weight=1, dash_array="6",
+                            fill=True, fill_color=growth_color(last["wn_yoy"]), fill_opacity=0.15,
+                            interactive=False)
+    fg = folium.FeatureGroup(name="Demand growth shading (Dominion zone)")
+    rect.add_to(fg)
+    fg.add_to(m)
+
+    months = ok[["month", "wn_yoy", "raw_yoy", "peak_mw"]].tail(36).to_dict("records")
+    for r in months:
+        r["color"] = growth_color(r["wn_yoy"])
+    js = f"""
+    <script>
+    (function() {{
+      var D = {json.dumps(months)};
+      function upd(i) {{
+        var r = D[i];
+        document.getElementById('nc-month').textContent = r.month;
+        document.getElementById('nc-val').textContent =
+          (r.wn_yoy >= 0 ? '+' : '') + (100 * r.wn_yoy).toFixed(1) + '% weather-normalized YoY, peak ' +
+          Math.round(r.peak_mw).toLocaleString() + ' MW';
+        var lyr = window['{rect.get_name()}'];
+        if (lyr) lyr.setStyle({{fillColor: r.color}});
+      }}
+      document.addEventListener('DOMContentLoaded', function() {{
+        var s = document.getElementById('nc-slider');
+        s.max = D.length - 1; s.value = D.length - 1;
+        s.addEventListener('input', function() {{ upd(+s.value); }});
+        setTimeout(function() {{ upd(D.length - 1); }}, 300);
+      }});
+    }})();
+    </script>"""
+    m.get_root().html.add_child(folium.Element(js))
+
+    return f"""
+      <div style="margin-top:8px;padding-top:6px;border-top:1px solid #dee2e6">
+        <div style="font-weight:700">Demand nowcast: Dominion zone</div>
+        <div><b>{last['wn_yoy']:+.1%}</b> weather-normalized demand growth, {last['month']}
+             (raw {last['raw_yoy']:+.1%})</div>
+        {surprise}
+        <div><b>{peak_yr:,.0f} MW</b> {last['month'][:4]} peak vs about
+             <b>{cap['dispatchable']:,.0f} MW</b> dispatchable capacity in the zone
+             (+{cap['variable']:,.0f} MW solar/wind/storage)</div>
+        <div>Peak-hour gap to cover with solar and imports: <b>~{gap:,.0f} MW</b></div>
+        <div style="margin-top:4px">{growth_svg(mon)}</div>
+        <div style="color:#52514e">Monthly growth vs same month last year, red = higher.
+             Hover bars for values. The slider recolors the study box; the box is
+             not the zone boundary.</div>
+        <div style="margin-top:4px"><input id="nc-slider" type="range" min="0" step="1"
+             style="width:100%" aria-label="Month"></div>
+        <div><b id="nc-month"></b> <span id="nc-val"></span></div>
+      </div>"""
+
 # ---------------------------------------------------------------------- map
 def popup_table(title: str, rows: list[tuple[str, str]]) -> folium.Popup:
     body = "".join(f"<tr><td style='color:#666;padding-right:8px'>{k}</td><td>{v}</td></tr>"
@@ -326,6 +456,7 @@ def build(offline: bool = False) -> Path:
                  f"text-shadow:0 0 3px #fff,0 0 3px #fff'>{label}</div>")).add_to(fg_ctx)
     fg_ctx.add_to(m)
 
+    nc_html = nowcast_section(m)
     folium.LayerControl(collapsed=False).add_to(m)
     MiniMap(toggle_display=True, position="bottomleft").add_to(m)
     m.fit_bounds([[s, w], [n, e]])
@@ -343,7 +474,7 @@ def build(offline: bool = False) -> Path:
     dc_note = (f"<b>{len(dcs)}</b> data center buildings/sites from OpenStreetMap (coverage incomplete)." if dcs else
                "<b>Data center layer pending:</b> source not loaded yet.")
     panel = f"""
-    <div style="position:fixed;top:12px;left:56px;z-index:9999;max-width:330px;
+    <div style="position:fixed;top:12px;left:56px;z-index:9999;max-width:330px;max-height:calc(100vh - 24px);overflow-y:auto;
                 background:rgba(255,255,255,.94);padding:10px 12px;border-radius:8px;
                 box-shadow:0 1px 6px rgba(0,0,0,.25);font:12px/1.4 sans-serif;color:#212529">
       <div style="font-weight:700;font-size:14px">Northern Virginia grid map</div>
@@ -352,6 +483,7 @@ def build(offline: bool = False) -> Path:
       <div><b>{pl.mw.sum():,.0f} MW</b> planned at {len(pl)} plants (dashed)</div>
       <div><b>{len(lines)}</b> transmission line segments · <b>{len(subs)}</b> inferred substations</div>
       <div style="margin-top:6px">{dc_note}</div>
+      {nc_html}
       <details style="margin-top:6px"><summary style="cursor:pointer">Legend</summary>
         <div style="margin-top:4px">{fuel_rows}</div>
         <div style="margin-top:6px">{volt_rows}</div>
@@ -364,7 +496,10 @@ def build(offline: bool = False) -> Path:
         Lines built since 2023 may be missing.<br>
         Substations: inferred by clustering line endpoints; names only where 2+ lines agree.<br>
         Data centers: OpenStreetMap contributors (ODbL); many facilities are unmapped.<br>
-        Area labels are approximate context, not facility locations.</div>
+        Area labels are approximate context, not facility locations.<br>
+        Nowcast: EIA-930 hourly demand for PJM's DOM zone, fit with this repo's point-in-time
+        weather model (map/dom_nowcast.py). Zone capacity: EIA-860M Virginia plants minus
+        AEP/Appalachian Power, net summer MW (approximate).</div>
       </details>
     </div>"""
     m.get_root().html.add_child(folium.Element(panel))

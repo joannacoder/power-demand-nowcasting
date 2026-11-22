@@ -49,3 +49,22 @@ Northern Virginia data center demand is several GW and growing (figure to be
 sourced from Dominion/PJM load forecasts before publishing). The
 region leans on 500 kV imports from the west and south, which is the physical
 story behind the "grid bottleneck" part of this project.
+
+## Link to the demand nowcast (Dominion zone)
+
+`python map/dom_nowcast.py` pulls hourly demand for PJM's **DOM** transmission
+zone from the EIA-930 *subregion* files and runs this repo's point-in-time
+weather model (`src/pdn/model.py`) on it, with a three-point temperature
+(Dulles 45%, Richmond 30%, Norfolk 25%: assumed load weights). It writes:
+
+* `map/dom_monthly.csv`: weather-normalized and raw YoY growth, monthly peak MW,
+  out-of-sample error.
+* `map/dom_daily.csv`: daily actual vs. out-of-sample expected demand
+  ("surprise" %).
+
+The map panel shows the latest growth, last-30-day surprise, the year's peak vs.
+approximate dispatchable capacity in the zone, a 36-month growth bar chart, and
+a month slider that recolors the study box (blue = below last year, red =
+above). Zone capacity is an approximation: EIA-860M Virginia plants minus
+AEP/Appalachian Power, net summer MW. The shaded box is the study area, not the
+DOM zone boundary.
