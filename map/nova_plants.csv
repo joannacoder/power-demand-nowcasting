@@ -1,0 +1,118 @@
+plant_id,status,name,operator,county,state,lat,lon,mw,fuel,fuel_mix,n_units,first_year,last_year,ba
+55939,Operating,Warren County,Virginia Electric & Power Co,Warren,VA,38.971667,-78.17722,1472.2,Gas (combined cycle),"Gas (combined cycle) 1,472 MW",4,2014.0,2014.0,PJM
+59004,Operating,"Potomac Energy Center, LLC",Potomac Energy Center LLC,Loudoun,VA,39.058056,-77.545,812.0,Gas (combined cycle),Gas (combined cycle) 812 MW,3,2017.0,2017.0,PJM
+3804,Operating,Possum Point,Virginia Electric & Power Co,Prince William,VA,38.5367,-77.2806,709.0,Gas (combined cycle),"Gas (combined cycle) 613 MW, Oil 96 MW",9,1968.0,2003.0,PJM
+7838,Operating,Remington,Virginia Electric & Power Co,Fauquier,VA,38.5442,-77.7714,705.5,Gas (peaker),Gas (peaker) 706 MW,4,2000.0,2000.0,PJM
+7836,Operating,Marsh Run Generation Facility,Old Dominion Electric Coop,Fauquier,VA,38.5283,-77.7681,596.7,Gas (peaker),Gas (peaker) 597 MW,3,2004.0,2004.0,PJM
+1572,Operating,Dickerson Power,"Dickerson Power, LLC",Montgomery,MD,39.2097,-77.4644,326.0,Gas (peaker),Gas (peaker) 326 MW,2,1992.0,1992.0,PJM
+1573,Operating,Morgantown Generating Plant,"Lanyard Power Holdings, LLC",Charles,MD,38.3592,-76.9767,260.0,Oil,Oil 260 MW,4,1973.0,1973.0,PJM
+65043,Planned,Dulles Solar and Storage,Dominion Energy Inc.,Loudoun,VA,38.95,-77.5,150.0,Solar,"Solar 100 MW, Battery storage 50 MW",2,,,PJM
+66133,Operating,"Bartonsville Energy Facility, LLC","Bartonsville Energy Facility, LLC",Frederick,VA,39.088731,-78.2399,130.0,Solar,Solar 130 MW,1,2024.0,2024.0,PJM
+50658,Operating,Covanta Fairfax Energy,Covanta Fairfax Inc,Fairfax,VA,38.695,-77.2411,124.0,Waste / biomass,Waste / biomass 124 MW,2,1990.0,1990.0,PJM
+70547,Planned,Rippon Energy Facility,"Torch Operating Company, LLC",Jefferson,WV,39.198017,-77.86053,117.1,Solar,Solar 117 MW,1,,,PJM
+68205,Planned,Greenwood Solar I,"Greenwood Solar I, LLC",Culpeper,VA,38.427261,-77.90787,100.0,Solar,Solar 100 MW,1,,,PJM
+66276,Operating,Blake Solar Plant,"Horus West Virginia 1, LLC",Jefferson,WV,39.263611,-77.83341,96.0,Solar,Solar 96 MW,1,2024.0,2024.0,PJM
+66841,Operating,Foxglove Solar,Urban Grid Solar,Frederick,VA,39.073825,-78.28012,75.0,Solar,Solar 75 MW,1,2024.0,2024.0,PJM
+50657,Operating,Montgomery County Resource Recovery,"Covanta Montgomery, Inc.",Montgomery,MD,39.2006,-77.4556,67.8,Waste / biomass,Waste / biomass 68 MW,1,1995.0,1995.0,PJM
+58207,Operating,Central Utility Plant at White Oak,GSA Metropolitan Service Center,Montgomery,MD,39.039444,-76.9825,54.3,Gas (combined cycle),"Gas (combined cycle) 24 MW, Gas (peaker) 23 MW, Oil 7 MW",12,2003.0,2014.0,PJM
+65930,Planned,Redbud Run Solar,Dominion Renewable Energy,Frederick,VA,39.21157,-78.08417,30.0,Solar,Solar 30 MW,1,,,PJM
+50663,Operating,Covanta Alexandria/Arlington Energy,Covanta Alexandria/Arlington,Alexandria City,VA,38.8014,-77.1288,29.0,Waste / biomass,Waste / biomass 29 MW,2,1987.0,1987.0,PJM
+56668,Operating,NIH Cogeneration Facility,National Institutes of Health,Montgomery,MD,39.0,-77.0939,28.0,Gas (peaker),Gas (peaker) 28 MW,1,2018.0,2018.0,PJM
+66203,Operating,Ripley,MN8 Energy LLC,Charles,MD,38.535,-77.097,27.5,Solar,Solar 28 MW,1,2023.0,2023.0,PJM
+61552,Operating,Fort Detrick Solar PV,"Montevue Lane Solar, LLC",Frederick,MD,39.44,-77.45,21.7,Solar,"Solar 16 MW, Battery storage 6 MW",2,2016.0,2024.0,PJM
+59685,Operating,Remington Solar Facility,Virginia Electric & Power Co,Fauquier,VA,38.548333,-77.77639,20.0,Solar,Solar 20 MW,1,2017.0,2017.0,PJM
+64012,Operating,"Energix Nokesville, LLC","Energix Nokesville, LLC",Prince William,VA,38.672,-77.593,20.0,Solar,Solar 20 MW,1,2022.0,2022.0,PJM
+70232,Planned,"Evergreen Energy Center, LLC","East Point Energy, LLC",Loudoun,VA,39.044885,-77.58191,20.0,Battery storage,Battery storage 20 MW,1,,,PJM
+70231,Planned,"Bethlehem Energy Center, LLC - (VA)","East Point Energy, LLC",Prince William,VA,38.781889,-77.5426,20.0,Battery storage,Battery storage 20 MW,1,,,PJM
+70233,Planned,"Railroad Energy Center, LLC","East Point Energy, LLC",Prince William,VA,38.781689,-77.54202,20.0,Battery storage,Battery storage 20 MW,1,,,PJM
+70234,Planned,"Reid Energy Center, LLC","East Point Energy, LLC",Prince William,VA,38.729874,-77.59242,20.0,Battery storage,Battery storage 20 MW,1,,,PJM
+7797,Operating,Dominion/Lo Mar,City of Manassas - (VA),Prince William,VA,38.7443,-77.4974,19.200000000000003,Oil,Oil 19 MW,5,1997.0,1997.0,PJM
+59860,Operating,HP Hood CT,HP Hood LLC,Frederick,VA,39.132519,-78.18747,15.0,Gas (peaker),Gas (peaker) 15 MW,1,2015.0,2015.0,PJM
+70203,Planned,Bealeton Solar,"TerraForm Power Operating, LLC",Fauquier,VA,38.555832,-77.77828,14.2,Solar,Solar 14 MW,1,,,PJM
+59012,Operating,Walt Bailey Bioenergy Facility,DC Water,District of Columbia,DC,38.820556,-77.01833,14.100000000000001,Waste / biomass,Waste / biomass 14 MW,3,2015.0,2015.0,PJM
+7440,Operating,VMEA 1 Credit Gen,City of Manassas - (VA),Prince William,VA,38.74054,-77.50806,13.200000000000001,Oil,Oil 13 MW,8,1990.0,2009.0,PJM
+57788,Operating,US GSA Heating and Transmission,US GSA Heating and Transmission,District of Columbia,DC,38.885709,-77.02837,10.8,Gas (peaker),Gas (peaker) 11 MW,2,2004.0,2004.0,PJM
+61374,Operating,Hecate Energy Clarke County LLC,Dominion Renewable Energy,Clarke,VA,39.06485,-78.13821,10.0,Solar,Solar 10 MW,1,2017.0,2017.0,PJM
+63347,Operating,"AOC, Capitol Power Plant","Architect of the Capitol, Capitol Power Plant",District of Columbia,DC,38.882704,-77.00744,7.5,Gas (peaker),Gas (peaker) 8 MW,1,2018.0,2018.0,PJM
+7441,Operating,VMEA Peaking Gen,City of Manassas - (VA),Prince William,VA,38.74054,-77.50806,6.4,Oil,Oil 6 MW,4,1992.0,1993.0,PJM
+7439,Operating,Godwin Drive Plant,City of Manassas - (VA),Prince William,VA,38.74054,-77.50806,6.300000000000001,Oil,Oil 6 MW,4,1990.0,1992.0,PJM
+70527,Operating,"UE-00601MD, LLC",Unison Energy LLC,Prince Georges,MD,38.781576,-77.0169,6.0,Gas (peaker),Gas (peaker) 6 MW,3,2018.0,2018.0,PJM
+62374,Operating,JBAB - Washington DC,"JBAB Solar I, LLC.",District of Columbia,DC,38.852655,-77.00929,5.9,Solar,Solar 6 MW,1,2019.0,2019.0,PJM
+67265,Planned,CHP Plant,Howard University,District of Columbia,DC,38.92033,-77.021,5.7,Gas (peaker),Gas (peaker) 6 MW,1,,,PJM
+67490,Operating,Spectrum Solar Hybrid,Spectrum Solar LLC,Prince Georges,MD,38.95,-76.95,5.6,Solar,Solar 6 MW,2,2023.0,2023.0,PJM
+62327,Operating,"Synergen Panorama, LLC CSG","Altus Power America Management, LLC",Prince Georges,MD,38.772107,-76.97338,5.0,Solar,Solar 5 MW,1,2019.0,2019.0,PJM
+65945,Operating,Brookville Smart Bus Depot Microgrid,AlphaStruxure Service Co LP,Montgomery,MD,38.99903,-77.058,5.0,Gas (peaker),"Gas (peaker) 2 MW, Solar 2 MW, Battery storage 2 MW",5,2022.0,2024.0,PJM
+67647,Planned,Kinglet,Cypress Creek Renewables,Stafford,VA,38.350511,-77.47619,5.0,Solar,Solar 5 MW,1,,,PJM
+69542,Operating,Fairfax Landfill,Madison Energy Investments LLC,Fairfax,VA,38.69017,-77.24049,5.0,Solar,Solar 5 MW,1,2025.0,2025.0,PJM
+63478,Operating,Ross Hall Central Utility Plant,The George Washington University,District of Columbia,DC,38.900216,-77.05079,4.6,Gas (peaker),Gas (peaker) 5 MW,1,2016.0,2016.0,PJM
+7438,Operating,Church Street Plant,City of Manassas - (VA),Prince William,VA,38.752347,-77.46292,4.300000000000001,Oil,Oil 4 MW,3,1987.0,1996.0,PJM
+69328,Operating,V Street Solar,"V Street Solar, LLC",District of Columbia,DC,38.917755,-76.99072,4.1,Solar,Solar 4 MW,2,2025.0,2025.0,PJM
+62208,Operating,NIST Solar,"Luminace Solar MC, LLC",Montgomery,MD,39.127,-77.216,4.0,Solar,Solar 4 MW,1,2018.0,2018.0,PJM
+7798,Operating,Gateway Gen,City of Manassas - (VA),Prince William,VA,38.725278,-77.50972,3.6,Oil,Oil 4 MW,2,1996.0,2009.0,PJM
+63917,Operating,DC Water Solar,Marbury Point Solar LLC,District of Columbia,DC,38.819244,-77.01894,3.5,Solar,Solar 4 MW,1,2021.0,2021.0,PJM
+54723,Operating,I 95 Landfill Phase II,"NextEra Renewable Fuels, LLC",Fairfax,VA,38.6892,-77.2375,3.2,Waste / biomass,Waste / biomass 3 MW,4,1993.0,1993.0,PJM
+67405,Operating,Beech Road (CSG),Nautilus Solar Solutions,Prince Geroges,MD,38.82294,-76.93471,3.0,Solar,Solar 3 MW,1,2024.0,2024.0,PJM
+67709,Operating,CUA West Campus - North (CSG),Standard Solar,District of Columbia,DC,38.93526,-77.00252,3.0,Solar,Solar 3 MW,1,2024.0,2024.0,PJM
+6546,Operating,Millville Hydro Station,"Eagle Creek Renewable Energy, LLC",Jefferson,WV,39.273056,-77.78444,2.8,Hydro,Hydro 3 MW,3,1913.0,1939.0,PJM
+67707,Operating,CUA West Campus - South (CSG),Standard Solar,District of Columbia,DC,38.93526,-77.00252,2.8,Solar,Solar 3 MW,1,2024.0,2024.0,PJM
+62331,Operating,Sol Phoenix,Greenbacker Renewable Energy Corporation,Prince Georges,MD,38.85,-76.95,2.5,Solar,Solar 2 MW,1,2020.0,2020.0,PJM
+61055,Operating,DG AMP Solar Front Royal,"DG AMP Solar, LLC",Warren,VA,38.929,-78.18,2.5,Solar,Solar 2 MW,1,2017.0,2017.0,PJM
+56894,Operating,Ameresco Stafford,AMERESCO Stafford LLC,Stafford,VA,38.384167,-77.41306,2.2,Waste / biomass,Waste / biomass 2 MW,2,2009.0,2009.0,PJM
+67334,Operating,Ten Oaks,Nautilus Solar Solutions,Howard,MD,39.2028,-76.9561,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+68063,Operating,VA- US Foods- Manassas,EDPRNA DG VA Manassas LLC,Prince William,VA,38.786044,-77.55476,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+68942,Operating,Chaberton Solar Catherine,Pivot Energy,Howard,MD,39.316996,-77.00585,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+66160,Operating,Friendship I,"Altus Power America Management, LLC",Howard,MD,39.30953,-76.97915,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+66698,Operating,Oxon Run CREF,Oxon Run Community Renewable Energy Facility,District of Columbia,DC,38.821772,-77.00354,2.0,Solar,Solar 2 MW,1,2021.0,2021.0,PJM
+67180,Operating,Oaks Landfill - ANEM,Greenbacker Renewable Energy Corporation,Montgomery,MD,39.193672,-77.11872,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+66656,Operating,KDC Solar CV O'Donnell Property LLC,KDC Solar CV O'Donnell Property LLC,Howard,MD,39.311,-76.978,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+66655,Operating,KDC Solar CV Animal Control LLC,KDC Solar CV Animal Control LLC,Howard,MD,39.314718,-76.97887,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+58015,Operating,IKEA College Park 411,IKEA Property Inc,Prince Georges,MD,39.021,-76.926,2.0,Solar,Solar 2 MW,2,2012.0,2021.0,PJM
+63496,Operating,Frederick County - Landfill,Tesla Inc.,Frederick,MD,39.373263,-77.34985,2.0,Solar,Solar 2 MW,1,2019.0,2019.0,PJM
+57754,Operating,Frederick County LFGTE Facility,Frederick County Virginia,Frederick,VA,39.140833,-78.0975,2.0,Waste / biomass,Waste / biomass 2 MW,2,2010.0,2010.0,PJM
+69768,Operating,TPE MD PR232,Pivot Energy,Prince Georges,MD,38.734972,-76.92585,2.0,Solar,Solar 2 MW,1,2026.0,2026.0,PJM
+68989,Operating,Chaberton Solar Lime Kiln,Pivot Energy,Howard,MD,39.14942,-76.93162,2.0,Solar,Solar 2 MW,1,2025.0,2025.0,PJM
+69069,Operating,MD - CPG - Ten Oaks,Solar DG MD Ten Oaks LLC,Howard,MD,39.261126,-76.98617,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+68992,Operating,TPE MD HO93,Pivot Energy,Howard,MD,39.185645,-76.92383,2.0,Solar,Solar 2 MW,1,2025.0,2025.0,PJM
+67393,Operating,Livingston Crossing (CSG),Nautilus Solar Solutions,Prince Georges,MD,38.69686,-76.97816,2.0,Solar,Solar 2 MW,1,2025.0,2025.0,PJM
+67690,Operating,Oaks Landfill CS 2,Greenbacker Renewable Energy Corporation,Montgomery,MD,39.193664,-77.1187,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+66654,Operating,KDC Solar CV Central MD Regional Transit,KDC Solar CV Central MD Regional Transit LLC,Howard,MD,39.311,-76.978,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+65982,Operating,KDC Solar TC Little Patuxent WWTP LLC,CleanCapital Holdings,Howard,MD,39.299137,-76.95995,2.0,Solar,Solar 2 MW,1,2022.0,2022.0,PJM
+66162,Operating,Friendship II,"Altus Power America Management, LLC",Howard,MD,39.309529,-76.97915,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+66652,Operating,KDC Solar CV Ascend One LLC,KDC Solar CV Ascend One LLC,Howard,MD,39.31771,-76.98454,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+65610,Operating,MO32 (CSG),TPE MD MO32 LLC,Montgomery,MD,39.119391,-76.95976,2.0,Solar,Solar 2 MW,1,2022.0,2022.0,PJM
+65896,Operating,Gallaudet Uni Community Solar,"SMS DC CS01B, LLC",District of Columbia,DC,38.90724,-76.99372,2.0,Solar,Solar 2 MW,1,2025.0,2025.0,PJM
+65983,Operating,KDC Solar TC George Howard LLC,CleanCapital Holdings,Howard,MD,39.300067,-76.95713,2.0,Solar,Solar 2 MW,1,2022.0,2022.0,PJM
+65984,Operating,KDC Solar TC Blandair Park LLC,CleanCapital Holdings,Howard,MD,39.300615,-76.96096,2.0,Solar,Solar 2 MW,1,2022.0,2022.0,PJM
+65611,Operating,MO33 CSG,TPE MD MO33 LLC,Montgomery,MD,39.187812,-77.11986,2.0,Solar,Solar 2 MW,1,2022.0,2022.0,PJM
+66653,Operating,KDC Solar CV Cedar Lane Park LLC,KDC Solar CV Cedar Lane Park LLC,Howard,MD,39.314718,-76.97887,2.0,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+67508,Operating,Oaks Landfill CS 1,Greenbacker Renewable Energy Corporation,Montgomery,MD,39.193589,-77.11872,2.0,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+65959,Operating,WMATA - Cheverly Metro (CSG),MN8 Energy LLC,Prince Georges,MD,38.915643,-76.91737,1.9,Solar,Solar 2 MW,1,2024.0,2024.0,PJM
+64643,Operating,P52ES 1755 Henryton Rd Phase 2 LLC,Nautilus Solar Solutions,Howard,MD,39.32015,-76.92965,1.9,Solar,Solar 2 MW,1,2021.0,2021.0,PJM
+64642,Operating,P52ES 1755 Henryton Rd Phase 1 LLC CSG,Nautilus Solar Solutions,Howard,MD,39.32015,-76.92965,1.9,Solar,Solar 2 MW,1,2021.0,2021.0,PJM
+61608,Operating,Montgomery County Solar,Montgomery County Solar,Montgomery,MD,39.113,-77.236,1.9,Solar,Solar 2 MW,1,2018.0,2018.0,PJM
+56368,Operating,Water Treatment Plant Generators,City of Manassas - (VA),Prince William,VA,38.760695,-77.62089,1.8,Oil,Oil 2 MW,1,2007.0,2007.0,PJM
+65960,Operating,WMATA - Naylor Rd. Metro,MN8 Energy LLC,Prince Georges,MD,38.85034,-76.9573,1.7,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+64379,Operating,Ridgecrest,Greenbacker Renewable Energy Corporation,District of Columbia,DC,38.84683,-76.97592,1.7,Solar,Solar 2 MW,1,2021.0,2021.0,PJM
+65961,Operating,WMATA - S. Ave. Carport (East) (CSG),MN8 Energy LLC,Prince Georges,MD,38.84066,-76.9752,1.7,Solar,Solar 2 MW,1,2023.0,2023.0,PJM
+61738,Operating,GWCC PV Solar Farm,GWCC PV Solar Farm,Prince Georges,MD,39.017238,-76.909,1.6,Solar,Solar 2 MW,1,2015.0,2015.0,PJM
+63253,Operating,Francis Scott Key Mall,Francis Scott Key Mall,Frederick,MD,39.38588,-77.40947,1.6,Solar,Solar 2 MW,1,2018.0,2018.0,PJM
+70275,Operating,Roxbury,Roxbury Road Solar 1 LLC,Howard,MD,39.25137,-77.02746,1.5,Solar,Solar 2 MW,1,2026.0,2026.0,PJM
+63428,Operating,"IGS CC, LLC",Greenbacker Renewable Energy Corporation,District of Columbia,DC,38.936172,-76.96819,1.5,Solar,Solar 2 MW,1,2020.0,2020.0,PJM
+60820,Operating,Montgomery County Correctional Facility,Tesla Inc.,Montgomery,MD,39.237945,-77.29322,1.4,Solar,Solar 1 MW,1,2017.0,2017.0,PJM
+67272,Operating,The Village at Orchard Ridge (TVOR),"Distributed Solar Development, LLC",Frederick,VA,39.201562,-78.21391,1.4,Solar,Solar 1 MW,1,2023.0,2023.0,PJM
+68280,Operating,NCS Paradise LLC,New Columbia Solar,District of Columbia,DC,38.90639,-76.9514,1.3,Solar,Solar 1 MW,1,2021.0,2021.0,PJM
+64602,Operating,"Kirby Road Solar, LLC",Nautilus Solar Solutions,Prince Georges,MD,38.77897,-76.9237,1.3,Solar,Solar 1 MW,1,2021.0,2021.0,PJM
+67583,Operating,DC Water,"Azimuth 180 Solar Electric, LLC",District of Columbia,DC,38.91,-76.99,1.3,Solar,Solar 1 MW,1,2025.0,2025.0,PJM
+68393,Operating,North Stafford HS,Madison Energy Investments LLC,Stafford,VA,38.467778,-77.45528,1.3,Solar,Solar 1 MW,1,2023.0,2023.0,PJM
+59743,Operating,Chimes West Friendship (Nixon Farms),"SunE SEM 1, LLC",Howard,MD,39.296749,-76.95741,1.2,Solar,Solar 1 MW,1,2014.0,2014.0,PJM
+65176,Operating,"WW-DC Solar 1, LLC","Altus Power America Management, LLC",District of Columbia,DC,38.82568,-77.00205,1.2,Solar,Solar 1 MW,1,2022.0,2022.0,PJM
+66819,Operating,Holly Spring Meadows,Standard Solar,Prince Georges,MD,38.862089,-76.91249,1.2,Solar,Solar 1 MW,1,2023.0,2023.0,PJM
+65958,Operating,WMATA - Anacostia CSG,MN8 Energy LLC,District of Columbia,DC,38.86499,-76.99401,1.1,Solar,Solar 1 MW,1,2023.0,2023.0,PJM
+68279,Operating,NCS FCPA LLC,New Columbia Solar,District of Columbia,DC,38.89146,-76.9403,1.1,Solar,Solar 1 MW,1,2020.0,2020.0,PJM
+62910,Operating,MNCPPC Germantown Solar,Standard Solar,Montgomery,MD,39.149037,-77.31795,1.0,Solar,Solar 1 MW,1,2018.0,2018.0,PJM
+62710,Operating,Nationals,Terraform Arcadia,District of Columbia,DC,38.874155,-77.00668,1.0,Solar,Solar 1 MW,1,2019.0,2019.0,PJM
+58252,Operating,Alpha Ridge LFG,Howard County - Maryland,Howard,MD,39.305,-76.90194,1.0,Waste / biomass,Waste / biomass 1 MW,1,2012.0,2012.0,PJM
+69135,Operating,Reston Town Center Solar 1,Reston Town Center Solar 1 LLC,Fairfax,VA,38.959906,-77.35767,1.0,Solar,Solar 1 MW,1,2025.0,2025.0,PJM
+67458,Operating,Boyd Soccerplex,Madison Energy Investments LLC,Montgomery,MD,39.152794,-77.31136,1.0,Solar,Solar 1 MW,1,2023.0,2023.0,PJM
+63970,Operating,7185 13th Pl. NW,New Columbia Solar,District of Columbia,DC,38.977175,-77.03141,0.9,Solar,Solar 1 MW,1,2019.0,2019.0,PJM
+65133,Operating,Benning Road,"Azimuth 180 Solar Electric, LLC",District of Columbia,DC,38.89829,-76.95561,0.8,Solar,Solar 1 MW,1,2021.0,2021.0,PJM
