@@ -346,6 +346,90 @@ def nowcast_section(m: folium.Map) -> str:
         <div><b id="nc-month"></b> <span id="nc-val"></span></div>
       </div>"""
 
+
+# ------------------------------------------------------------ PJM prices
+PJM_BUS = ROOT / "map" / "pjm_dom_bus_congestion.csv"
+PJM_ZONE = ROOT / "map" / "pjm_dom_zone_daily.csv"
+
+
+def _norm(x: str) -> str:
+    return "".join(ch for ch in str(x).upper() if ch.isalnum())
+
+
+def match_buses(subs: list[dict]) -> list[dict]:
+    """Place PJM buses at inferred substations whose name matches the bus name.
+
+    PJM bus names look like 'BRAMBLTN 230 KV T1'; the station part is the first
+    token, often truncated to 8 characters. Match it against substation names by
+    exact prefix, then fuzzy ratio >= 0.85. Buses at one station are averaged.
+    """
+    import difflib
+    if not PJM_BUS.exists():
+        return []
+    bus = pd.read_csv(PJM_BUS)
+    bus["station"] = bus["pnode_name"].astype(str).str.split().str[0].map(_norm)
+    named = {_norm(s["name"]): s for s in subs if not s["name"].startswith("Unnamed")}
+    keys = list(named)
+    out = []
+    for st, g in bus.groupby("station"):
+        if len(st) < 4:
+            continue
+        hit = next((k for k in keys if k.startswith(st) or (len(k) >= 4 and st.startswith(k))), None)
+        if hit is None:
+            close = difflib.get_close_matches(st, keys, n=1, cutoff=0.85)
+            hit = close[0] if close else None
+        if hit is None:
+            continue
+        sub = named[hit]
+        out.append(dict(lat=sub["lat"], lon=sub["lon"], station=sub["name"],
+                        buses=len(g), avg_congestion=g["avg_congestion"].mean(),
+                        share=g["share_hours_congested"].mean(),
+                        avg_lmp=g["avg_lmp"].mean(), window=g["window"].iloc[0]))
+    print(f"PJM buses: {bus['station'].nunique()} stations, {len(out)} matched to substations")
+    return out
+
+
+def congestion_layer(m: folium.Map, subs: list[dict]) -> str:
+    placed = match_buses(subs)
+    if placed:
+        fg = folium.FeatureGroup(name="Congestion price at substations (PJM, approx.)")
+        vmax = max(1.0, max(abs(p["avg_congestion"]) for p in placed))
+        for p in placed:
+            # Positive congestion component = power is scarce here relative to the
+            # system; negative = surplus that cannot get out.
+            folium.CircleMarker(
+                [p["lat"], p["lon"]], radius=4 + 8 * abs(p["avg_congestion"]) / vmax,
+                color="#212529", weight=1, fill=True, fill_opacity=0.85,
+                fill_color=growth_color(0.12 * p["avg_congestion"] / vmax),
+                tooltip=f"{p['station']}: congestion {p['avg_congestion']:+.2f} $/MWh",
+                popup=popup_table(p["station"], [
+                    ("Avg day-ahead LMP", f"${p['avg_lmp']:.2f}/MWh"),
+                    ("Avg congestion component", f"{p['avg_congestion']:+.2f} $/MWh"),
+                    ("Hours congestion > $5", f"{p['share']:.0%}"),
+                    ("PJM buses matched", str(p["buses"])),
+                    ("Window", p["window"]),
+                    ("Note", "Bus placed by name match to an inferred substation")]),
+            ).add_to(fg)
+        fg.add_to(m)
+    if not PJM_ZONE.exists():
+        return ""
+    z = pd.read_csv(PJM_ZONE, parse_dates=["date"])
+    last = z[z["date"] >= z["date"].max() - pd.Timedelta(days=30)]
+    prev = z[(z["date"] < z["date"].max() - pd.Timedelta(days=335))
+             & (z["date"] >= z["date"].max() - pd.Timedelta(days=395))]
+    spread = (last["total_lmp_da_dominion"] - last["total_lmp_da_pjm_rto"]).mean()
+    spread_prev = (prev["total_lmp_da_dominion"] - prev["total_lmp_da_pjm_rto"]).mean()
+    cong = last["congestion_price_da_dominion"].mean()
+    yoy = "" if spread_prev != spread_prev else f" (same period last year {spread_prev:+.2f})"
+    return f"""
+      <div style="margin-top:8px;padding-top:6px;border-top:1px solid #dee2e6">
+        <div style="font-weight:700">Prices: Dominion vs PJM</div>
+        <div>Last 30 days, day-ahead: Dominion trades <b>{spread:+.2f} $/MWh</b> vs PJM{yoy}</div>
+        <div>Average congestion component: <b>{cong:+.2f} $/MWh</b></div>
+        <div style="color:#52514e">{len(placed)} substations priced on the map; red = scarce
+             (positive congestion), blue = surplus.</div>
+      </div>"""
+
 # ---------------------------------------------------------------------- map
 def popup_table(title: str, rows: list[tuple[str, str]]) -> folium.Popup:
     body = "".join(f"<tr><td style='color:#666;padding-right:8px'>{k}</td><td>{v}</td></tr>"
@@ -456,7 +540,7 @@ def build(offline: bool = False) -> Path:
                  f"text-shadow:0 0 3px #fff,0 0 3px #fff'>{label}</div>")).add_to(fg_ctx)
     fg_ctx.add_to(m)
 
-    nc_html = nowcast_section(m)
+    nc_html = nowcast_section(m) + congestion_layer(m, subs)
     folium.LayerControl(collapsed=False).add_to(m)
     MiniMap(toggle_display=True, position="bottomleft").add_to(m)
     m.fit_bounds([[s, w], [n, e]])

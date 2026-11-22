@@ -1,0 +1,40 @@
+name: Fetch PJM day-ahead LMPs (Dominion zone)
+
+# Downloads Dominion-zone day-ahead prices from PJM Data Miner 2 and commits
+# map/pjm_dom_zone_daily.csv and map/pjm_dom_bus_congestion.csv.
+# Needs the repository secret PJM_API_KEY (free key from apiportal.pjm.com).
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-pjm-lmp.yml"
+      - "map/pjm_lmp.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas requests
+      - name: Fetch LMPs
+        env:
+          PJM_API_KEY: ${{ secrets.PJM_API_KEY }}
+        run: |
+          if [ -z "$PJM_API_KEY" ]; then
+            echo "::warning::PJM_API_KEY secret is not set; skipping."
+            exit 0
+          fi
+          python map/pjm_lmp.py
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add map/pjm_dom_*.csv 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Update PJM Dominion LMP snapshot"
+          git push

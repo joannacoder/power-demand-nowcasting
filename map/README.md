@@ -68,3 +68,15 @@ a month slider that recolors the study box (blue = below last year, red =
 above). Zone capacity is an approximation: EIA-860M Virginia plants minus
 AEP/Appalachian Power, net summer MW. The shaded box is the study area, not the
 DOM zone boundary.
+
+## Congestion prices (PJM)
+
+`map/pjm_lmp.py` pulls day-ahead LMPs from PJM Data Miner 2 (feed `da_hrl_lmps`):
+the DOMINION zone vs PJM-RTO daily (about two years), and the average
+congestion component per Dominion bus over the last 30 days. It needs a free
+key from apiportal.pjm.com. In this repo it runs in the `fetch-pjm-lmp`
+GitHub Action with the key stored as the repository secret `PJM_API_KEY`.
+
+PJM does not publish bus coordinates, so a bus is drawn only where its name
+(e.g. `BRAMBLTN 230 KV`) matches an inferred substation name. Those positions
+are approximate, and unmatched buses are left off the map.
